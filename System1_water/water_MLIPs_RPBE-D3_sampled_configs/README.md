@@ -4,7 +4,7 @@ Trained MACE models from water configurations sampled via RPBE-D3 DFT.
 
 ## Layout
 
-- `models/` — final `*_stagetwo.model` files, one per training run.
+- `models/` — final `*_stagetwo.model` files.
 
 ## Notes
 
