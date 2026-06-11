@@ -1,6 +1,6 @@
 # System 1: Bulk Liquid Water
 
-Analysis scripts, packaged data, and training utilities for the LES distillation benchmark — bulk liquid water.
+Analysis scripts, packaged data, and training utilities for the Latent Ewald Summation (LES) distillation benchmark — bulk liquid water.
 
 ## Contents
 

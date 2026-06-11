@@ -1,6 +1,6 @@
-# System 3: Rutile TiO₂(110)/Water Interface
+# System 3: TiO₂(110)-Water Interface
 
-Analysis scripts, trained models, and training/MD utilities for the LES distillation benchmark — rutile TiO₂(110)/water interface. Models are evaluated on layer-resolved IR spectra and water density profiles against a CACE-SCAN reference.
+Analysis scripts, trained models, and training/MD utilities for the Latent Ewald Summation (LES) distillation benchmark — TiO₂(110)-water interface. Models are evaluated on surface IR spectra and water density profiles against a CACE-SCAN reference.
 
 ## Contents
 

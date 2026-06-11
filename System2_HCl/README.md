@@ -1,6 +1,6 @@
 # System 2: 2 M HCl Solution
 
-Analysis scripts, packaged data, trained models, and training utilities for the 2 M HCl solution IR spectroscopy benchmark.
+Analysis scripts, packaged data, trained models, and training utilities for the Latent Ewald Summation (LES) distillation benchmark — 2 M HCl solution H₃O⁺ IR difference spectrum.
 
 ## Contents
 
