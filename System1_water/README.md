@@ -6,8 +6,8 @@ Analysis scripts, packaged data, and training utilities for the Latent Ewald Sum
 
 - `water_IR/` — grouped IR spectrum plotting script and input data.
 - `water_BEC/` — BEC benchmark data, plotting script, and notebook.
-- `water_MLIPs_UMA-M-MD_sampled_configs/` — trained MACE models from UMA-M MD-sampled training sets.
-- `water_MLIPs_RPBE-D3_sampled_configs/` — trained MACE models from RPBE-D3 sampled training sets.
+- `water_MLIPs_UMA-M-MD_sampled_configs/` — trained MACE models from UMA-M MD-sampled training configurations.
+- `water_MLIPs_RPBE-D3_sampled_configs/` — trained MACE models from RPBE-D3 sampled training configurations.
 - `Datasets/` — training and test xyz datasets (RPBE-D3 and UMA-M sampled).
 - `MLIP_and_MD_setups/` — SLURM scripts and Python utilities for MACE training and MD runs.
 
