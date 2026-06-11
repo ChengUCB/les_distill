@@ -5,9 +5,9 @@ Analysis scripts, packaged data, trained models, and training utilities for the 
 ## Contents
 
 - `HCl_solution_IR/` — pre-computed H₃O⁺ IR spectra (`.npz`), experimental reference data, and grouped plotting script.
-- `MLIPs/` — eight fine-tuned MACE models, one per foundation model / DFT functional combination.
+- `MLIPs/` — eight two-stage MACE models, one per foundation model / DFT functional combination.
 - `Datasets/` — training (1000 configs) and test (100 configs) xyz files sampled from UMA-S NVT MD.
-- `MLIP_and_MD_setups/` — MACE fine-tuning script, NVT MD runner, BEC current calculator, and RDF utility.
+- `MLIP_and_MD_setups/` — MACE two-stage training script, NVT MD runner, BEC current calculator, and RDF utility.
 
 ## Quick start
 
@@ -25,7 +25,7 @@ python HCl_solution_IR/ir_plot_grouped.py
 
 ## Models
 
-Eight fine-tuned MACE models covering GGA and hybrid/meta-GGA functionals:
+Eight two-stage MACE models, DFT reference: GGA:
 
 | File | Foundation model | DFT reference |
 |------|-----------------|---------------|
@@ -38,10 +38,10 @@ Eight fine-tuned MACE models covering GGA and hybrid/meta-GGA functionals:
 | `2M-HCl_esen-OC25-sm-con_stagetwo.model` | eSEN-OC25-sm | GGA |
 | `2M-HCl_orbv3-omol-cons_stagetwo.model` | Orb-v3 (OMol) | GGA |
 
-## MACE training and MD
+## MACE two-stage training and MD
 
 ```bash
-# Fine-tune a MACE model
+# Two-stage MACE training
 bash MLIP_and_MD_setups/MACELES-fit.sh
 
 # Run NVT MD

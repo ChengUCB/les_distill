@@ -1,6 +1,6 @@
-# System 1: Water
+# System 1: Bulk Liquid Water
 
-Analysis scripts, packaged data, and training utilities for the water distillation benchmark.
+Analysis scripts, packaged data, and training utilities for the LES distillation benchmark — bulk liquid water.
 
 ## Contents
 
@@ -31,12 +31,12 @@ Reproduce the BEC benchmark figures:
 python water_BEC/water_BEC_benchmark.py
 ```
 
-## MACE training and MD
+## MACE two-stage training and MD
 
 The `MLIP_and_MD_setups/` scripts require a working [MACE](https://github.com/ACEsuit/mace) installation. See the MACE documentation for setup instructions.
 
 ```bash
-# Example: run MACE training on Savio HPC
+# Example: run MACE two-stage training on Savio HPC
 sbatch MLIP_and_MD_setups/MACELES-fit.sh
 
 # Run MD and compute BEC current
