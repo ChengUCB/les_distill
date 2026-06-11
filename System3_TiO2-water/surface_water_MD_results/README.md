@@ -27,16 +27,14 @@ The right-column top cell holds a compact table legend distinguishing interfacia
 | PBE | MACE-MH-1(OMat) | `MACE-MH-omat` |
 | PBE | GemNet-OC22 | `OC22` |
 | RPBE | UMA-M(OC20) | `UMA-M-oc20` |
-| RPBE | eSEN-OC25-sm †| `esen-sm-con` |
-| RPBE | eSEN-OC25-md †| `esen-direct` |
+| RPBE-D3 | eSEN-OC25-sm| `esen-sm-con` |
+| RPBE-D3 | eSEN-OC25-md | `esen-direct` |
 | SCAN | CACELES (5.5 Å) | `DFT` |
 | SCAN | CACELES (6 Å, T=1) | `DFT_cut6` / `DFT_CUT6` |
 | SCAN | MACE-MP-0(L) → 10% SCAN | `frac10` |
 | SCAN | MACE-MP-0(L) → 50% SCAN | `frac50` |
 | SCAN | MACE-MH-1(r²SCAN) | `MACE-H1-r2scan` |
 | SCAN | PET-OMATPES (r²SCAN) | `PET-r2scan` |
-
-† with D3 dispersion correction.
 
 References shown in density panels: DPLR (Zhang et al., 2025).  
 References shown in IR panels: experimental bulk water (shaded), experimental interfacial water (dotted), DPLR interfacial IR (SCAN panel only).
