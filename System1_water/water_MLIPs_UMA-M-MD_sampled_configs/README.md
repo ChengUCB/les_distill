@@ -4,7 +4,7 @@ Trained MACE models from water MD trajectories generated with UMA-M (omol founda
 
 ## Layout
 
-- `final_models/` — final `*_stagetwo.model` files, one per training run.
+- `final_models/` — final `*_stagetwo.model` files.
   - `learnig_curve_UMA-M-omol/` — models trained at varying dataset sizes (5–400 configs).
   - `mlp-train-*/` — final models for each foundation-model teacher.
 
