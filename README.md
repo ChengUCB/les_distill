@@ -1,6 +1,6 @@
 # LES Distillation Benchmark
 
-Training data, training scripts, fitted machine-learning interatomic potentials (MLIPs), MD setups, analysis scripts, and raw data for the **Latent Ewald Summation (LES) distillation** benchmark across three chemical systems.
+Training data, training scripts, fitted machine-learning interatomic potentials (MLIPs), molecular dynamics (MD) setups, analysis scripts, and raw data for the **Latent Ewald Summation (LES) distillation** benchmark across three chemical systems.
 
 ## Systems
 
