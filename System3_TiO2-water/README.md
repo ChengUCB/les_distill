@@ -1,12 +1,12 @@
 # System 3: TiO₂(110)-Water Interface
 
-Analysis scripts, trained models, and training/MD utilities for the Latent Ewald Summation (LES) distillation benchmark — TiO₂(110)-water interface. Models are evaluated on surface IR spectra and water density profiles against a CACE-SCAN reference.
+Analysis scripts, trained models, and training/MD utilities for the Latent Ewald Summation (LES) distillation benchmark — TiO₂(110)-water interface. 
 
 ## Contents
 
 - `surface_water_MD_results/` — pre-computed IR spectra and density profiles for all models, combined figure script, and reference data.
 - `MLIPs/` — CACE models organized by training strategy.
-- `MLIP_and_MD_setups/` — CACE training, NVT MD, geometry optimization, BEC current analysis, and density profiling scripts.
+- `MLIP_and_MD_setups/` — CACE training, NVT MD, geometry optimization, BEC analysis, and density profiling scripts.
 
 ## Quick start
 
@@ -26,9 +26,9 @@ python surface_water_MD_results/finalplot_combined_density_ir.py
 
 | Directory | Description |
 |-----------|-------------|
-| `MLIPs/Direct_fit/` | CACE model trained directly on SCAN DFT data (`best_model_DFT_SCAN.pth`) |
+| `MLIPs/Direct_fit/` | CACE model trained directly on the SCAN DFT data (`best_model_DFT_SCAN.pth`) |
 | `MLIPs/Fine-tuned_models/` | MACE-MP-0(L) fine-tuned on SCAN forces (10 % and 50 % data fractions) |
-| `MLIPs/Student_models/` | Foundation MLIPs (MACE, UMA, eSEN, PET, GemNet-OC22) used as student models |
+| `MLIPs/Student_models/` | Student models from foundation models |
 
 ## CACE training and MD
 
