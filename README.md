@@ -6,9 +6,9 @@ Training data, training scripts, fitted machine-learning interatomic potentials 
 
 | Folder | System | Property | Method |
 |--------|--------|----------|--------|
-| [`System1_water/`](System1_water/) | Bulk liquid water | IR spectrum, BEC benchmark | MACE two-stage training (RPBE-D3 / UMA-M) |
-| [`System2_HCl/`](System2_HCl/) | 2 M HCl solution | H₃O⁺ IR spectrum | MACE two-stage training (GGA) |
-| [`System3_TiO2-water/`](System3_TiO2-water/) | Rutile TiO₂(110)/water interface | Layer-resolved IR spectrum, water density profile | CACE (SCAN); force-only fine-tuning of MACE-MP-0(L) |
+| [`System1_water/`](System1_water/) | Bulk liquid water | IR spectrum, BEC benchmark | MACE two-stage training |
+| [`System2_HCl/`](System2_HCl/) | 2 M HCl solution | H₃O⁺ IR difference spectrum | MACE two-stage training |
+| [`System3_TiO2-water/`](System3_TiO2-water/) | TiO₂(110)-water interface | Surface IR spectrum, water density profile | CACE; force-only fine-tuning of MACE-MP-0(L) |
 
 ## Repository layout
 
@@ -23,13 +23,13 @@ les_distill/
 │   └── water_MLIPs_UMA-M-MD_sampled_configs/  # trained MACE models (learning curve)
 ├── System2_HCl/
 │   ├── Datasets/                  # train/test xyz (2M HCl, UMA-S sampled)
-│   ├── MLIP_and_MD_setups/        # MACE training script and MD/BEC utilities
-│   ├── MLIPs/                     # trained MACE models (8 potentials)
+│   ├── MLIP_and_MD_setups/        # MACE training script and MD/BEC analyses
+│   ├── MLIPs/                     # trained MACE models 
 │   └── HCl_solution_IR/           # H₃O⁺ IR spectra data and plotting
 └── System3_TiO2-water/
     ├── MLIP_and_MD_setups/        # CACE training, NVT MD, BEC analysis, opt
     ├── MLIPs/                     # CACE models (direct fit, fine-tuned, student)
-    └── surface_water_MD_results/  # IR spectra, density profiles, combined figure
+    └── surface_water_MD_results/  # IR spectra, density profiles
 ```
 
 ## Requirements
