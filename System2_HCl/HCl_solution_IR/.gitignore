@@ -1,0 +1,16 @@
+# Raw pkl data (large, regeneratable from external drive)
+data/IR_raw/
+
+# Output figures
+*.png
+*.pdf
+
+# Python
+__pycache__/
+**/__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+**/.DS_Store
