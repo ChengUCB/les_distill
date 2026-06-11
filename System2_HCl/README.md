@@ -5,8 +5,8 @@ Analysis scripts, packaged data, trained models, and training utilities for the 
 ## Contents
 
 - `HCl_solution_IR/` — pre-computed H₃O⁺ IR spectra (`.npz`), experimental reference data, and grouped plotting script.
-- `MLIPs/` — eight two-stage MACE models, one per foundation model / DFT functional combination.
-- `Datasets/` — training (1000 configs) and test (100 configs) xyz files sampled from UMA-S NVT MD.
+- `MLIPs/` — eight MACE MLIPs.
+- `Datasets/` — training (1000 configs) and test (100 configs) xyz files sampled from UMA-S-Omol-V2 NVT MD.
 - `MLIP_and_MD_setups/` — MACE two-stage training script, NVT MD runner, BEC current calculator, and RDF utility.
 
 ## Quick start
@@ -27,16 +27,16 @@ python HCl_solution_IR/ir_plot_grouped.py
 
 Eight two-stage MACE models, DFT reference: GGA:
 
-| File | Foundation model | DFT reference |
-|------|-----------------|---------------|
-| `2M-HCl_MACE-MH-omol_stagetwo.model` | MACE-MH (OMol) | GGA |
-| `2M-HCl_MACE-MP0_stagetwo.model` | MACE-MP-0 | GGA |
-| `2M-HCl_MACE_omol_stagetwo.model` | MACE (OMol) | GGA |
-| `2M-HCl_UMA-M-OC20_stagetwo.model` | UMA-M (OC20) | GGA |
-| `2M-HCl_UMA-S-1p2-omol_stagetwo.model` | UMA-S (OMol 1.2) | GGA |
-| `2M-HCl_esen-OC25-md-dir_stagetwo.model` | eSEN-OC25-md | GGA |
-| `2M-HCl_esen-OC25-sm-con_stagetwo.model` | eSEN-OC25-sm | GGA |
-| `2M-HCl_orbv3-omol-cons_stagetwo.model` | Orb-v3 (OMol) | GGA |
+| File | Foundation model | 
+|------|-----------------|
+| `2M-HCl_MACE-MH-omol_stagetwo.model` | MACE-MH (OMol) |
+| `2M-HCl_MACE-MP0_stagetwo.model` | MACE-MP-0 | 
+| `2M-HCl_MACE_omol_stagetwo.model` | MACE (OMol) | 
+| `2M-HCl_UMA-M-OC20_stagetwo.model` | UMA-M (OC20) | 
+| `2M-HCl_UMA-S-1p2-omol_stagetwo.model` | UMA-S (OMol V2) | 
+| `2M-HCl_esen-OC25-md-dir_stagetwo.model` | eSEN-OC25-md | 
+| `2M-HCl_esen-OC25-sm-con_stagetwo.model` | eSEN-OC25-sm |
+| `2M-HCl_orbv3-omol-cons_stagetwo.model` | Orb-v3 (OMol) | 
 
 ## MACE two-stage training and MD
 
