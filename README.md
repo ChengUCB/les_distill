@@ -1,6 +1,6 @@
 # LES Distillation Benchmark
 
-Data, trained models, analysis scripts, and MD/training utilities for the **local-environment spectroscopy (LES) distillation** benchmark — evaluating machine-learning interatomic potentials (MLIPs) against DFT-level vibrational spectra across three systems of increasing complexity.
+Training data, training scripts, fitted machine-learning interatomic potentials (MLIPs), MD setups, analysis scripts, and raw data for the **Latent Ewald Summation (LES) distillation** benchmark across three chemical systems.
 
 ## Systems
 
