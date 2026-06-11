@@ -25,7 +25,7 @@ python HCl_solution_IR/ir_plot_grouped.py
 
 ## Models
 
-Eight two-stage MACE models, DFT reference: GGA:
+Eight two-stage MACE models
 
 | File | Foundation model | 
 |------|-----------------|
