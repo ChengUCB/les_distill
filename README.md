@@ -8,7 +8,7 @@ Training data, training scripts, fitted machine-learning interatomic potentials 
 |--------|--------|----------|--------|
 | [`System1_water/`](System1_water/) | Bulk liquid water | IR spectrum, BEC benchmark | MACE two-stage training |
 | [`System2_HCl/`](System2_HCl/) | 2 M HCl solution | H₃O⁺ IR difference spectrum | MACE two-stage training |
-| [`System3_TiO2-water/`](System3_TiO2-water/) | TiO₂(110)-water interface | Surface IR spectrum, water density profile | CACE; force-only fine-tuning of MACE-MP-0(L) |
+| [`System3_TiO2-water/`](System3_TiO2-water/) | anatase TiO₂(101)-water interface | Surface IR spectrum, water density profile | CACE; force-only fine-tuning of MACE-MP-0(L) |
 
 ## Repository layout
 

@@ -1,6 +1,6 @@
 # Surface Water MD Results — TiO₂/Water Interface
 
-Combined figure of water density profiles and IR spectra at the rutile TiO₂(110)/water interface, benchmarking multiple machine-learning interatomic potentials (MLIPs) against DFT-level references.
+Combined figure of water density profiles and IR spectra at the anatase TiO₂(101)/water interface, benchmarking multiple machine-learning interatomic potentials (MLIPs) against DFT-level references.
 
 ## Output
 

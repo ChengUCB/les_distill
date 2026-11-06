@@ -1,6 +1,6 @@
-# System 3: TiO₂(110)-Water Interface
+# System 3: anatase TiO₂(101)-Water Interface
 
-Analysis scripts, trained models, and training/MD utilities for the Latent Ewald Summation (LES) distillation benchmark — TiO₂(110)-water interface. 
+Analysis scripts, trained models, and training/MD utilities for the Latent Ewald Summation (LES) distillation benchmark — anatase TiO₂(101)-water interface. 
 
 ## Contents
 
