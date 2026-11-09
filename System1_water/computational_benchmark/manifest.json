@@ -1,0 +1,16 @@
+{
+  "prepared_date": "2026-11-08",
+  "scope": "Accepted-manuscript figure files copied unchanged. No numerical curves were digitized or generated.",
+  "files": [
+    {
+      "figure": "S5",
+      "file": "figures/MDspeed.pdf",
+      "source": "distillation_foundation/SI_plots/1-H2O/MDspeed.pdf",
+      "sha256": "9976a23e3e00adec9fdbc69c4368335250e5aa7fa285f0eed84c68b9d315437d",
+      "bytes": 26672,
+      "status": "final_figure_only",
+      "description": "MD wall time per step versus number of atoms for the UMA-M(OMol)-derived MACELES student and 12 foundation models",
+      "missing_for_reproduction": "Per-model/per-size timing and GPU memory logs; benchmark driver; exact model and software versions; numerical plotting inputs and final plotting script"
+    }
+  ]
+}

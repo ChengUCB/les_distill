@@ -1,0 +1,48 @@
+{
+  "reference": "MACE-MH-1(OMat)",
+  "reference_role": "Common comparison baseline, not ground truth",
+  "metric_definition": "RMSD = root-mean-square difference between model labels",
+  "figure_size_mm": [
+    147,
+    76
+  ],
+  "font_size_pt": 11,
+  "rmsd_text_color": "black",
+  "n_configurations": 3168,
+  "n_atoms_per_configuration": 426,
+  "alignment": "Audited exact-geometry mapping from pairing.npz",
+  "relative_energy_definition": "1000 * (E_model - mean(E_model over the 3168 configurations)) / 426 [meV/atom]",
+  "model_mean_total_energy_eV": {
+    "GemNet": -2771.661574315543,
+    "MACE_MH": -2791.944144900591,
+    "MACE_MP": -2796.140392729595
+  },
+  "main_axis_limits_meV_atom": [
+    -60,
+    90
+  ],
+  "inset_axis_limits_meV_atom": [
+    -20,
+    10
+  ],
+  "normalization": "One additive energy offset per model; no scaling or linear fitting",
+  "metrics": {
+    "GemNet": {
+      "rmsd_meV_atom": 2.9501462097072437,
+      "mae_meV_atom": 2.3262875387186455,
+      "mean_difference_meV_atom": -1.6709955529259245e-12,
+      "pearson_r": 0.9827721263211159,
+      "points_in_main_panel": 3168,
+      "points_in_zoom": 2561
+    },
+    "MACE_MP": {
+      "rmsd_meV_atom": 0.6851123186091987,
+      "mae_meV_atom": 0.4498132094499513,
+      "mean_difference_meV_atom": -5.714486123355472e-13,
+      "pearson_r": 0.9996809725787678,
+      "points_in_main_panel": 3168,
+      "points_in_zoom": 2563
+    }
+  },
+  "gemnet_to_mace_mp_rmsd_ratio": 4.306076725778542
+}

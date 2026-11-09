@@ -1,0 +1,92 @@
+{
+  "geometry": {
+    "canonical_frames": 3346,
+    "selected_frames": 3168,
+    "models": {
+      "GemNet": {
+        "unique_paired_frames": 3168,
+        "species_and_pbc_match": true,
+        "max_position_difference_A": 0.0,
+        "max_cell_difference_A": 0.0
+      },
+      "MACE_MH": {
+        "unique_paired_frames": 3168,
+        "species_and_pbc_match": true,
+        "max_position_difference_A": 0.0,
+        "max_cell_difference_A": 0.0
+      },
+      "MACE_MP": {
+        "unique_paired_frames": 3168,
+        "species_and_pbc_match": true,
+        "max_position_difference_A": 0.0,
+        "max_cell_difference_A": 0.0
+      }
+    }
+  },
+  "figures": {
+    "energy": {
+      "metrics_match": true,
+      "png_pixels_equal": false,
+      "rgb_sha256": "91bf7ed3e806eada1f53a1eaa59b75c52e5e4643cc82b84440b3caf4e14b83ef"
+    },
+    "force": {
+      "metrics_match": true,
+      "png_pixels_equal": false,
+      "rgb_sha256": "e5765b98a6f5b095f696cfbf4c6d52eafa4922d69098ececc35f57fcd3a52f75"
+    }
+  },
+  "numerical_tolerance": {
+    "rtol": 1e-12,
+    "atol": 1e-10
+  },
+  "energy_csv_matches": true,
+  "validation_date": "2026-11-08",
+  "environment": {
+    "python": "3.9.6",
+    "numpy": "1.26.2",
+    "pandas": "2.1.4",
+    "matplotlib": "3.8.2",
+    "Pillow": "10.2.0"
+  },
+  "method": "Executed both portable plotting scripts and exporter, then checked numerical metadata, CSV, geometry mapping, archived references, and embedded PDF image pixels.",
+  "pixel_difference_note": "Regenerated plots are numerically reproducible but are not pixel-identical to the archived final PNGs. Axis-label placement/spacing visibly differs. The exact original rendering environment and cause of this difference are not established.",
+  "pdf_checks": {
+    "energy": {
+      "reference": {
+        "one_image": true,
+        "embedded_RGB_matches_corresponding_PNG": true,
+        "page_mm_from_pdfinfo": [
+          147.00003055555555,
+          75.99997499999999
+        ]
+      },
+      "reproduced": {
+        "one_image": true,
+        "embedded_RGB_matches_corresponding_PNG": true,
+        "page_mm_from_pdfinfo": [
+          147.00003055555555,
+          75.99997499999999
+        ]
+      }
+    },
+    "force": {
+      "reference": {
+        "one_image": true,
+        "embedded_RGB_matches_corresponding_PNG": true,
+        "page_mm_from_pdfinfo": [
+          147.00003055555555,
+          75.99997499999999
+        ]
+      },
+      "reproduced": {
+        "one_image": true,
+        "embedded_RGB_matches_corresponding_PNG": true,
+        "page_mm_from_pdfinfo": [
+          147.00003055555555,
+          75.99997499999999
+        ]
+      }
+    }
+  },
+  "checksum_manifest": "checksums.sha256 covers all curated files except itself; generated reproduced/ files and runtime caches are excluded."
+}

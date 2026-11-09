@@ -1,0 +1,35 @@
+{
+  "source_kind": "transcribed_from_accepted_SI_text_not_raw_measurements",
+  "source": "distillation_foundation/SI.tex, subsection Computational efficiency and practical advantages of distillation",
+  "system": "liquid water",
+  "student": "MACELES distilled from UMA-M(OMol)",
+  "number_of_foundation_models": 12,
+  "atom_count_min": 192,
+  "atom_count_max": 12288,
+  "ensemble": "NVT",
+  "temperature_K": 300,
+  "timestep_fs": 1,
+  "timed_MD_steps": 100,
+  "warmup_fs_excluded": 10,
+  "other_excluded_operations": [
+    "model loading",
+    "initial force evaluation"
+  ],
+  "MD_package": "ASE",
+  "GPU": "NVIDIA H200",
+  "GPU_memory_GB_as_reported": 142,
+  "memory_summary_as_reported": {
+    "student_atom_count": 12288,
+    "student_allocated_GB": 15.2,
+    "raw_measurement_log_available": false
+  },
+  "unresolved": [
+    "complete set of atom counts",
+    "model/version mapping",
+    "precision",
+    "timing synchronization",
+    "per-size wall times",
+    "per-size GPU-memory logs",
+    "plotting script"
+  ]
+}

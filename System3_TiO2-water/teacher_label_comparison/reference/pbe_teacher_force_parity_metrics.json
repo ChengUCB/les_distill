@@ -1,0 +1,55 @@
+{
+  "reference": "MACE-MH-1(OMat)",
+  "reference_role": "Common comparison baseline, not ground truth",
+  "metric_definition": "RMSD = root-mean-square difference between model labels",
+  "figure_size_mm": [
+    147,
+    76
+  ],
+  "font_size_pt": 11,
+  "rmsd_text_color": "black",
+  "model_names": {
+    "GemNet": "GemNet-OC22",
+    "MACE_MH": "MACE-MH-1(OMat)",
+    "MACE_MP": "MACE-MP-0(L)"
+  },
+  "n_configurations": 3168,
+  "n_atoms_per_configuration": 426,
+  "n_atom_records": 1349568,
+  "n_components_per_panel": 4048704,
+  "element_atom_records": {
+    "Ti": 190080,
+    "O": 639936,
+    "H": 519552
+  },
+  "point_definition": "One signed Cartesian force component Fx, Fy, or Fz on the same atom in the same configuration",
+  "alignment": "Audited exact-geometry mapping from pairing.npz; selected canonical frames with 426 atoms",
+  "force_treatment": "Unmodified stored force labels; no centering, rescaling, net-force removal, or subsampling",
+  "main_axis_limits_eV_A": [
+    -10,
+    10
+  ],
+  "inset_axis_limits_eV_A": [
+    -1,
+    1
+  ],
+  "rendering": "All force components plotted with identical marker size and opacity; rasterized scatter in PDF with vector text and axes",
+  "metrics": {
+    "GemNet": {
+      "rmsd_meV_A": 80.2049422318814,
+      "mae_meV_A": 58.20662011474536,
+      "mean_difference_meV_A": -0.03371397082868984,
+      "pearson_r": 0.9952971707429805,
+      "points_in_main_panel": 4048704,
+      "points_in_zoom": 3254284
+    },
+    "MACE_MP": {
+      "rmsd_meV_A": 81.8888488148665,
+      "mae_meV_A": 57.12248687569652,
+      "mean_difference_meV_A": -2.3118508866626667e-09,
+      "pearson_r": 0.9952576497558641,
+      "points_in_main_panel": 4048704,
+      "points_in_zoom": 3266551
+    }
+  }
+}

@@ -38,3 +38,31 @@ Each system has its own dependency list. In general:
 
 - **System 1 & 2**: [MACE](https://github.com/ACEsuit/mace), ASE, NumPy, Matplotlib, SciPy
 - **System 3**: [CACE](https://github.com/BingqingCheng/cace), ASE, PyTorch, NumPy, Matplotlib, SciPy
+
+## Publication figure materials
+
+Materials associated with *Distilling latent electrostatics from foundation machine learning interatomic potentials*, [DOI: 10.1103/kgym-z2rw](https://doi.org/10.1103/kgym-z2rw):
+
+| Figures | Directory | Contents |
+|---------|-----------|----------|
+| Supplemental Figs. S9/S10 | [Teacher label comparison](System3_TiO2-water/teacher_label_comparison/) | Matched configurations and labels, pairing indices, portable analysis scripts, numerical results, and figures |
+| Main Figs. 5–7; Supplemental Figs. S12/S13 | [Interface validation](System3_TiO2-water/interface_validation/) | Final figure PDFs and a figure-by-figure inventory of numerical data and scripts still to be added |
+| Supplemental Fig. S5 | [Computational benchmark](System1_water/computational_benchmark/) | Final figure PDF, reported benchmark protocol, and an inventory of timing/memory records and scripts still to be added |
+
+Only the S9/S10 directory currently includes the complete inputs and scripts for
+reproducing these newly archived figures. A final PDF alone is not a numerical
+data archive; each directory states its current coverage explicitly.
+
+### Downloading the S9/S10 data
+
+The four label caches are stored using [Git LFS](https://git-lfs.com/). After
+cloning the repository, retrieve the actual data files before running the
+analysis:
+
+```bash
+git lfs install
+git lfs pull --include="System3_TiO2-water/teacher_label_comparison/data/cache_*.npz"
+```
+
+See the [S9/S10 README](System3_TiO2-water/teacher_label_comparison/README.md)
+for dependency versions, verification commands, and reproduction instructions.

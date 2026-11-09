@@ -1,0 +1,60 @@
+{
+  "article_title": "Distilling latent electrostatics from foundation machine learning interatomic potentials",
+  "article_doi": "10.1103/kgym-z2rw",
+  "figures": {
+    "S9": "pbe_teacher_energy_parity",
+    "S10": "pbe_teacher_force_parity"
+  },
+  "prepared_date": "2026-11-08",
+  "source_cache_audit_date": "2026-10-16",
+  "source_figure_preparation_date": "2026-10-26",
+  "original_datasets": {
+    "SCAN": {
+      "original_xyz_basename": "train-TiO2-water-DFT.xyz",
+      "original_xyz_bytes": 146392582,
+      "original_xyz_sha256": "2f51279a71f4e88131cfb44921414190447e5e7a25106c891648decf4f694020",
+      "cache": "data/cache_SCAN.npz",
+      "note": "Original XYZ checksum copied from the historical label audit; original XYZ is not bundled. Cache copied byte-for-byte from the existing local audit."
+    },
+    "GemNet": {
+      "original_xyz_basename": "train-TiO2-water-OC22-PBE.xyz",
+      "original_xyz_bytes": 158935657,
+      "original_xyz_sha256": "62de0bc61299bb019b6236ad19bab898259b67f112f4424a416bec29fbcfc7da",
+      "cache": "data/cache_GemNet.npz",
+      "note": "Original XYZ checksum copied from the historical label audit; original XYZ is not bundled. Cache copied byte-for-byte from the existing local audit."
+    },
+    "MACE_MH": {
+      "original_xyz_basename": "train_TiO2-water_MACE-MH-omat.xyz",
+      "original_xyz_bytes": 146464524,
+      "original_xyz_sha256": "409a730a5135dbb61f8e5a08eabc2fb23702a18cedbdc42f608f73d3513b057f",
+      "cache": "data/cache_MACE_MH.npz",
+      "note": "Original XYZ checksum copied from the historical label audit; original XYZ is not bundled. Cache copied byte-for-byte from the existing local audit."
+    },
+    "MACE_MP": {
+      "original_xyz_basename": "train_TiO2-water_MP0a_L.xyz",
+      "original_xyz_bytes": 146464507,
+      "original_xyz_sha256": "5f0f2e7ecd85f8ca4aca653100676bc9af89c3d76177bdbf2d7a32b74afc12a9",
+      "cache": "data/cache_MACE_MP.npz",
+      "note": "Original XYZ checksum copied from the historical label audit; original XYZ is not bundled. Cache copied byte-for-byte from the existing local audit."
+    }
+  },
+  "source_scripts": {
+    "gen_fig_full_interface_energy_parity.py": {
+      "sha256": "aca5fc01b213397af31ffbfab1f18a40d869064e5b99a9f56a5379df84ade155"
+    },
+    "gen_fig_full_interface_force_parity.py": {
+      "sha256": "353d16e4795392ac1b8ac102195ca1cec3cd139693b1705d7a23ca0d2a505076"
+    },
+    "export_prerendered_parity_pdfs.py": {
+      "sha256": "6dbe2adc31ebd7dffa5858f8746698b1b44362b5da9fcff3573ec29bf5edc2d8"
+    }
+  },
+  "portable_changes": [
+    "Input/output paths are relative to this package and configurable by command-line arguments.",
+    "Removed machine-specific cache directories.",
+    "Caption labels changed from R1/R2 to S9/S10.",
+    "Force output metadata describes the actual final all-raster PDF export.",
+    "PDF exporter uses only Pillow and the Python standard library to losslessly embed the RGB PNG at 147 x 76 mm. Numerical and plotting formulas are unchanged."
+  ],
+  "reference_outputs_note": "PNG, metrics, and energy CSV copied unchanged from the final SI plotting outputs. PDFs copied unchanged from the current manuscript figure directory; these are file-level figure references, not a claim about publisher upload provenance."
+}

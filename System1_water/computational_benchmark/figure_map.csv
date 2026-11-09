@@ -1,0 +1,2 @@
+figure,file,status,description,missing_for_reproduction
+S5,figures/MDspeed.pdf,final_figure_only,MD wall time per step versus number of atoms for the UMA-M(OMol)-derived MACELES student and 12 foundation models,Per-model/per-size timing and GPU memory logs; benchmark driver; exact model and software versions; numerical plotting inputs and final plotting script

@@ -1,0 +1,56 @@
+{
+  "prepared_date": "2026-11-08",
+  "scope": "Accepted-manuscript figure files copied unchanged. No numerical curves were digitized or generated.",
+  "files": [
+    {
+      "figure": "5",
+      "file": "figures/Fig5_student_water_orientation.pdf",
+      "source": "distillation_foundation/Results_figs/Fig5_student_water_orientation.pdf",
+      "sha256": "5f03ec05301ace5a5b21f1e38cd19851a1c340e1d3230dea4210cf5c9d4b2449",
+      "bytes": 34957,
+      "status": "final_figure_only",
+      "description": "Student water dipole orientation profiles grouped by DFT level; 60 ps; both interfaces",
+      "missing_for_reproduction": "All per-model distance and mean cos(theta) arrays; sampling/averaging definitions; analysis and final plotting scripts"
+    },
+    {
+      "figure": "6",
+      "file": "figures/Fig6_foundation_mid_vs_caceles_large_density.pdf",
+      "source": "distillation_foundation/Results_figs/Fig6_foundation_mid_vs_caceles_large_density.pdf",
+      "sha256": "9cd77020295930bf4ffdb7de9d5bd855174c5659e825f6570f05b7eaa8828f20",
+      "bytes": 34300,
+      "status": "final_figure_only",
+      "description": "Water density: three foundation teachers in 1422-atom cells versus their students in 8748-atom cells",
+      "missing_for_reproduction": "Teacher 1422-atom density arrays; exact student 8748-atom curve mapping; analysis and final plotting scripts"
+    },
+    {
+      "figure": "7",
+      "file": "figures/Fig7_foundation_mid_vs_caceles_large_cos_theta.pdf",
+      "source": "distillation_foundation/Results_figs/Fig7_foundation_mid_vs_caceles_large_cos_theta.pdf",
+      "sha256": "8513465533e25027535e23a6089caa695e5b296c7efcfbb5226eed24a27093bf",
+      "bytes": 33871,
+      "status": "final_figure_only",
+      "description": "Dipole orientation: three foundation teachers in 1422-atom cells versus their students in 8748-atom cells",
+      "missing_for_reproduction": "Teacher and student mean cos(theta) arrays; analysis and final plotting scripts"
+    },
+    {
+      "figure": "S12",
+      "file": "figures/extended_water_density.pdf",
+      "source": "distillation_foundation/SI_plots/3-TiO2-H2O/extended_water_density.pdf",
+      "sha256": "8b4188d961b12ab82080248083c96aa528d0a7c0cf4fd0388d759a5fbafdfa04",
+      "bytes": 35043,
+      "status": "final_figure_only",
+      "description": "Student density convergence: original 60-ps and extended 100-ps runs in 8748-atom cells; MACE-MP-0(L), UMA-M(OC20), PET-OMATPES",
+      "missing_for_reproduction": "100-ps density arrays and run definitions; exact 60-ps baseline curve mapping; analysis and final plotting scripts"
+    },
+    {
+      "figure": "S13",
+      "file": "figures/caceles_mid_vs_large_system_size.pdf",
+      "source": "distillation_foundation/SI_plots/3-TiO2-H2O/caceles_mid_vs_large_system_size.pdf",
+      "sha256": "d9fa0882db9260c2165ad5b91c5e7ade850a4a7bb1ab46ba74b6dded8542d801",
+      "bytes": 48060,
+      "status": "final_figure_only",
+      "description": "Student density and dipole orientation: 1422-atom versus 8748-atom cells; GemNet-OC22, MACE-MH-1(OMat), MACE-MP-0(L)",
+      "missing_for_reproduction": "1422-atom student density and orientation arrays; 8748-atom orientation arrays; exact large-cell density mapping; analysis and final plotting scripts"
+    }
+  ]
+}
