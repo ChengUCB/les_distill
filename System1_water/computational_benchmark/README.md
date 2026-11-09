@@ -18,8 +18,6 @@ The original script reads `speed_tests_combined.csv` beside itself and writes `f
 
 The plotted student is **FP32 MACELES distilled from conservative Orb-v3 OMol**, trained on teacher-relabeled RPBE-D3 water configurations. The records specify **100 timed NVT Nose–Hoover MD steps at 300 K, a 1 fs timestep, and 5 excluded warmup steps** on an NVIDIA H200. Wall time includes the ASE integrator and calculator work. Memory values are in **GiB**. At 12,288 atoms the student uses 15.2262 GiB peak allocated and 41.2051 GiB peak reserved memory.
 
-These source-backed details supersede the previous manuscript-transcribed metadata (UMA teacher, 10 fs warmup, and generic GB occupancy). They do not imply a benchmark rerun or further manuscript edits.
-
 ## Recovered benchmark implementation
 
 `benchmark/benchmark_md.py`, `run_one_h200.sh`, and the 192-atom `ini.xyz` preserve the recovered implementation with only resource/interpreter paths adapted. The existing repository student checkpoint is reused; no weights or trajectories are duplicated. For an H200 run with the matching model environment, for example:
@@ -27,5 +25,3 @@ These source-backed details supersede the previous manuscript-transcribed metada
 ```bash
 BENCHMARK_PYTHON=python bash benchmark/run_one_h200.sh maceles-orbmol-cons-fp32 1x1x1
 ```
-
-External teacher checkpoints are not bundled; their filenames/API identifiers and recorded package versions are in the driver and protocol. The GemNet branch also needs the supplied recovered `benchmark/gemnet_compatibility/graph_patch.py`.
