@@ -23,11 +23,3 @@ The first command after installation writes PDFs and PNGs to `reproduced/`. Use 
 | S13 | `caceles_mid_vs_large_density.dat` and `caceles_mid_vs_large_cos_theta.dat` | `plot_s13.py` |
 
 The Fig. 5 summary CSV preserves model identifiers, original trajectory paths, analyzed-frame counts and averaging settings. DAT headers name every model, grid and observable. All supplied tables are unchanged copies of the final author exports; values were not digitized or inferred from the PDFs. The exported values have eight decimal places.
-
-## What is reproduced
-
-The runnable scripts retain the original panel layout, model ordering, colors, line styles, limits, labels and legends. Their inputs are the final tables instead of trajectory analysis or cached coordinates. There is no new smoothing, interpolation, normalization, rebinning, or model fitting. NaN bins are retained, so lines do not bridge excluded regions.
-
-This is **final-curve and figure reproduction**, not a complete raw-MD reanalysis package. `analysis_source/` preserves the original scientific calculations and required local helper modules unchanged. Those archival files require their original raw trajectories/caches and are not executed by the redraw commands. The source-to-file mapping and checksums are in `provenance/sources.json`.
-
-The interface is anatase TiO2(101). For orientation the molecular direction is O toward the H midpoint, projected on the **local inward normal** from the nearest surface into the water film (+z at the lower interface and −z at the upper). This corrects the earlier archive README's “outward” wording to match the recovered code. Figure-specific molecule selection and interface averaging remain in the archived methods; the redraw scripts use the already-computed profiles unchanged.
