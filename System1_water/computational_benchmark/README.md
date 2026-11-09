@@ -29,5 +29,3 @@ BENCHMARK_PYTHON=python bash benchmark/run_one_h200.sh maceles-orbmol-cons-fp32 
 ```
 
 External teacher checkpoints are not bundled; their filenames/API identifiers and recorded package versions are in the driver and protocol. The GemNet branch also needs the supplied recovered `benchmark/gemnet_compatibility/graph_patch.py`.
-
-The recovered driver corresponds to historical hash `f14e1649…`, used by the LES runs. The exact older `bd605fe3…` foundation/Orb driver was not recovered. Detailed warmup-reset, synchronization and memory-reset semantics are therefore directly verified only for the recovered LES implementation. The historical student-weight hash and GemNet helper hash were not logged; their unchanged historical identity is unknown. `validation.json` records the data and figure checks performed for this archive.

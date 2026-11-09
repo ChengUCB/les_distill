@@ -5,7 +5,7 @@
   "figure_file": "figures/MDspeed.pdf",
   "status": "original_plot_source_and_selected_measurements_archived",
   "files_excluding_this_manifest": 183,
-  "bytes_excluding_this_manifest": 533542,
+  "bytes_excluding_this_manifest": 533036,
   "files": [
     {
       "path": ".gitignore",
@@ -14,8 +14,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 3176,
-      "sha256": "a57686f0deead92a266af046e018b861560ce63126c96bb87e2615290ee88890"
+      "bytes": 2670,
+      "sha256": "7ed11ee6fd2b29da81cbbe83f2e92497d5fb82d5046c2ba039f6aed4f8c625aa"
     },
     {
       "path": "benchmark/benchmark_md.py",
