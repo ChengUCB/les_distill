@@ -46,7 +46,7 @@
   "implementation_evidence": {
     "GemNet_compatibility_code": "Recovered graph_patch.py from the archived 1422-atom GemNet reference directory; historical runtime dependency hash was not recorded.",
     "MACE_MH_head": "omol",
-    "MACE_MH_head_evidence": "evidence_logs/mace-mh-1__r1x1x1.log explicitly reports Using head omol",
+    "MACE_MH_head_evidence": "Verified from original run output (not bundled); benchmark/benchmark_md.py also selects head='omol'.",
     "matching_historical_cases": "LES cases; the plotted student uses this driver hash.",
     "missing_older_driver_sha256": "bd605fe3ac4bf1542e3ed7b1d291ee7562ed46a30b47a6bfc475733a2fdac792",
     "older_foundation_Orb_detailed_implementation": "unknown beyond fields preserved in the case records",
@@ -395,7 +395,7 @@
     }
   },
   "plotted_points": 139,
-  "privacy": "Only personal absolute-path prefixes and hostname were redacted from selected case records and evidence logs; original hashes are in provenance.json.",
+  "privacy": "Only personal absolute-path prefixes and hostname were redacted from selected case records; original hashes are in provenance.json.",
   "scope": "Figure S5: 13 plotted models, including one FP32 MACELES student; no MD rerun was performed while preparing this archive.",
   "source_kind": "original_case_records_and_final_plotting_table",
   "student": {
@@ -404,7 +404,7 @@
     "checkpoint_training_precision": "float64",
     "existing_repository_checkpoint": "System1_water/water_MLIPs_RPBE-D3_sampled_configs/models/mlp-train-orbmol_cons/H2O-DFT-orbmol_cons_stagetwo.model",
     "historical_runtime_checkpoint_sha256": null,
-    "precision_evidence": "evidence_logs/maceles-orbmol-cons-fp32__r4x4x4.log",
+    "precision_evidence": "records/maceles/maceles-orbmol-cons-fp32__r4x4x4.json records float32; conversion from the float64 checkpoint was verified from original run output (not bundled).",
     "recovered_checkpoint_sha256": "8634413694ed248da08a424742770c99c01986eaf4082d231dd5afac92a45dd9",
     "teacher": "conservative Orb-v3 OMol",
     "training_configurations": "RPBE-D3 AIMD liquid-water configurations relabeled by conservative Orb-v3 OMol"

@@ -1728,26 +1728,6 @@
       ]
     },
     {
-      "path": "evidence_logs/mace-mh-1__r1x1x1.log",
-      "bytes": 3182,
-      "sha256": "74bffb15851b59b6c20bfdeb10482a9c7530ecc355403e811db50872d9aa829d",
-      "source": "_shared/speed-benchmark/water-test/benchmark_results_nvt_nh_20260716_164359/logs/mace-mh-1__r1x1x1.log",
-      "source_sha256": "9a3513f69ad7ce7b866d8d5e0759dec47c6d272a4da2792749c1d04ccce5dbbc",
-      "changes": [
-        "Personal absolute-path prefixes and hostname redacted; remaining log text unchanged."
-      ]
-    },
-    {
-      "path": "evidence_logs/maceles-orbmol-cons-fp32__r4x4x4.log",
-      "bytes": 3273,
-      "sha256": "1e14f1b94dfe949e871bbef650537b485573d570d194d33dfadf8e0f822056ce",
-      "source": "_shared/speed-benchmark/water-test/benchmark_results_maceles_fp64_fp32_20260721_215708/logs/maceles-orbmol-cons-fp32__r4x4x4.log",
-      "source_sha256": "a193191c848f3ba7348086b7236862a464d136b98fed498bdfda1dc76dc528f8",
-      "changes": [
-        "Personal absolute-path prefixes and hostname redacted; remaining log text unchanged."
-      ]
-    },
-    {
       "path": "benchmark/benchmark_md.py",
       "bytes": 18928,
       "sha256": "4351d8fb7d0b965738629327c2ab5b1b51c6fdc6df7fea97aa624a1712826afa",

@@ -1,11 +1,11 @@
 {
   "prepared_date": "2026-11-08",
-  "scope": "Final S5 source, original numerical table, 169 selected case JSON records, two evidence logs, minimal recovered benchmark driver/input/dependency, corrected protocol and one authorized label-corrected PDF. No weights, long trajectories, runtime caches or private training submission files.",
+  "scope": "Final S5 source, original numerical table, 169 selected case JSON records, minimal recovered benchmark driver/input/dependency, corrected protocol and one authorized label-corrected PDF. No weights, long trajectories, runtime caches or private training submission files.",
   "figure": "S5",
   "figure_file": "figures/MDspeed.pdf",
   "status": "original_plot_source_and_selected_measurements_archived",
-  "files_excluding_this_manifest": 185,
-  "bytes_excluding_this_manifest": 541034,
+  "files_excluding_this_manifest": 183,
+  "bytes_excluding_this_manifest": 533542,
   "files": [
     {
       "path": ".gitignore",
@@ -14,8 +14,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 3284,
-      "sha256": "d8293bdf58f46335f9ed7b61e7a0a964dad5824adebc939ac478a942c6ae7053"
+      "bytes": 3176,
+      "sha256": "a57686f0deead92a266af046e018b861560ce63126c96bb87e2615290ee88890"
     },
     {
       "path": "benchmark/benchmark_md.py",
@@ -38,16 +38,6 @@
       "sha256": "f5bb6dbe5bd572ba0f63a5548cba1b53905dfd8931954da7f7437c830f52c583"
     },
     {
-      "path": "evidence_logs/mace-mh-1__r1x1x1.log",
-      "bytes": 3182,
-      "sha256": "74bffb15851b59b6c20bfdeb10482a9c7530ecc355403e811db50872d9aa829d"
-    },
-    {
-      "path": "evidence_logs/maceles-orbmol-cons-fp32__r4x4x4.log",
-      "bytes": 3273,
-      "sha256": "1e14f1b94dfe949e871bbef650537b485573d570d194d33dfadf8e0f822056ce"
-    },
-    {
       "path": "figure_map.csv",
       "bytes": 339,
       "sha256": "d8574f91733ce215d3829fc8427f1e043413a4ad132654634f2be9d24c187b2a"
@@ -64,8 +54,8 @@
     },
     {
       "path": "provenance.json",
-      "bytes": 102715,
-      "sha256": "42285fb50785bd40837eb0d293142740f048625720f19130402267fb2688ada5"
+      "bytes": 101662,
+      "sha256": "c100d94294054c6d545f9dbca3a5ee26c3b771c070547315cf7514fb0bfc6cdb"
     },
     {
       "path": "records/maceles/maceles-orbmol-cons-fp32__r1x1x1.json",
@@ -914,8 +904,8 @@
     },
     {
       "path": "reported_protocol.json",
-      "bytes": 12486,
-      "sha256": "5125407bd156cca42f6c86ab4fc8836cf04d8fc7ff3d0c76951d3f9afdb471e3"
+      "bytes": 12610,
+      "sha256": "ab6a137fad546add0ef69546f3c9b0b19e98badc48e8a2400d674950559869cf"
     },
     {
       "path": "requirements-plot.txt",
