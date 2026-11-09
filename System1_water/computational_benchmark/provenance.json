@@ -1,0 +1,1792 @@
+{
+  "prepared_date": "2026-11-08",
+  "original_plot_before_authorized_label_edit_sha256": "2b879b8e4b0f84d9f82cb68d915ddb7191b9a249c2fab769775d6c167f4854ef",
+  "accepted_PDF_before_authorized_label_edit_sha256": "9976a23e3e00adec9fdbc69c4368335250e5aa7fa285f0eed84c68b9d315437d",
+  "plot_label_edit": "Only MACE-MH-1(Omat) -> MACE-MH-1(OMol); final source and CSV otherwise unchanged.",
+  "selected_runs": {
+    "main": "benchmark_results_nvt_nh_20260716_164359",
+    "orb_rerun": "benchmark_results_orb_rerun",
+    "maceles": "benchmark_results_maceles_fp64_fp32_20260721_215708"
+  },
+  "original_csv_rows": 195,
+  "selected_case_rows": 169,
+  "nonplotted_rows_retained_in_original_csv": "26 rows for FP64 MACELES and CACELES are retained because speed_tests_combined.csv is preserved byte-for-byte; their raw records and weights are intentionally excluded.",
+  "historical_student_checkpoint_identity": "The recovered checkpoint is identified by SHA-256 and is already in the repository. Historical case records did not contain a checkpoint hash.",
+  "source_files": [
+    {
+      "path": "plot_inference_time.py",
+      "bytes": 6715,
+      "sha256": "f27cba2ab0288b2ba298b4b00711b68e394d4301bc7136c3fb17922d2d984549",
+      "source": "MISC/Rev_distill/Speedtest/plot_inference_time.py",
+      "source_sha256": "f27cba2ab0288b2ba298b4b00711b68e394d4301bc7136c3fb17922d2d984549",
+      "changes": []
+    },
+    {
+      "path": "speed_tests_combined.csv",
+      "bytes": 49722,
+      "sha256": "38fedd4c21911e4f71a2ebc2d65f070f1810c8b37f1f1df91fd511aa34cbbe5d",
+      "source": "MISC/Rev_distill/Speedtest/speed_tests_combined.csv",
+      "source_sha256": "38fedd4c21911e4f71a2ebc2d65f070f1810c8b37f1f1df91fd511aa34cbbe5d",
+      "changes": []
+    },
+    {
+      "path": "figures/MDspeed.pdf",
+      "bytes": 26691,
+      "sha256": "4c9f9e55218728dab7a3d28250d0a2e0e8b4b79a02f7631b2db3bae2d4b1b13d",
+      "source": "MISC/Rev_distill/Speedtest/MDspeed.pdf",
+      "source_sha256": "4c9f9e55218728dab7a3d28250d0a2e0e8b4b79a02f7631b2db3bae2d4b1b13d",
+      "changes": []
+    },
+    {
+      "path": "records/main/esen-md-dir__r1x1x1.json",
+      "bytes": 1728,
+      "sha256": "caf6bb55c914588d9dd355860456063a4fc9830ec585b701b951cf9f3a141554",
+      "source": "_shared/speed-benchmark/water-test/benchmark_results_nvt_nh_20260716_164359/esen-md-dir__r1x1x1.json",
+      "source_sha256": "9b9abf0b1803e10177b2c1b2ac100b4c5bc6a0ccfff2ca213c94a827d9b246e4",
+      "changes": [
+        "Personal absolute-path prefixes and hostname redacted; model identifiers, numeric values, status, software versions and historical hashes unchanged."
+      ]
+    },
+    {
+      "path": "records/main/esen-md-dir__r1x2x3.json",
+      "bytes": 1732,
+      "sha256": "6c298f434f531753ce965eddd7077f80803a220cef9549976bfa439f224faf02",
+      "source": "_shared/speed-benchmark/water-test/benchmark_results_nvt_nh_20260716_164359/esen-md-dir__r1x2x3.json",
+      "source_sha256": "bde5d68a207cdd2edd5313dfaaa8db0250ecca3ff0adb15e5000b1cc30589aad",
+      "changes": [
+        "Personal absolute-path prefixes and hostname redacted; model identifiers, numeric values, status, software versions and historical hashes unchanged."
+      ]
+    },
+    {
+      "path": "records/main/esen-md-dir__r1x2x5.json",
+      "bytes": 1733,
+      "sha256": "ca9b99449060e67d7a6ff2b78ab250a9b850711d901cfbc913c837c9d386bb78",
+      "source": "_shared/speed-benchmark/water-test/benchmark_results_nvt_nh_20260716_164359/esen-md-dir__r1x2x5.json",
+      "source_sha256": "65c0cab916804fe555b4c1c36b0f20340315f6c65740940a7ae8da40681d903a",
+      "changes": [
+        "Personal absolute-path prefixes and hostname redacted; model identifiers, numeric values, status, software versions and historical hashes unchanged."
+      ]
+    },
+    {
+      "path": "records/main/esen-md-dir__r2x2x4.json",
+      "bytes": 1729,
+      "sha256": "e4bd4ecd3e63c9368c3b8bc447484b07245a7e61cc699b37c50aa660afba37a7",
+      "source": "_shared/speed-benchmark/water-test/benchmark_results_nvt_nh_20260716_164359/esen-md-dir__r2x2x4.json",
+      "source_sha256": "3c74b3de1cb459fd89c26b6d48a56f8ce9797a0a32d97acb69acc6b89d6cef35",
+      "changes": [
+        "Personal absolute-path prefixes and hostname redacted; model identifiers, numeric values, status, software versions and historical hashes unchanged."
+      ]
+    },
+    {
+      "path": "records/main/esen-md-dir__r2x2x5.json",
+      "bytes": 1730,
+      "sha256": "28c3e622e6162dc08db07770af375a771c853d9bf007cfbe82079bcec1cfffcc",
+      "source": "_shared/speed-benchmark/water-test/benchmark_results_nvt_nh_20260716_164359/esen-md-dir__r2x2x5.json",
+      "source_sha256": "c6d258cf649aaf55ff7b29f80082441823b381efad5df66db95b89c63ef05252",
+      "changes": [
+        "Personal absolute-path prefixes and hostname redacted; model identifiers, numeric values, status, software versions and historical hashes unchanged."
+      ]
+    },
+    {
+      "path": "records/main/esen-md-dir__r3x3x3.json",
+      "bytes": 1732,
+      "sha256": "4587979cb122ee95a45c638335107ee47e20e41facd216b966a1314917c72b81",
+      "source": "_shared/speed-benchmark/water-test/benchmark_results_nvt_nh_20260716_164359/esen-md-dir__r3x3x3.json",
+      "source_sha256": "43a1a9b899e1761572b6992b17a9ebcc8799b4111f63db7f0ede683839fc8249",
+      "changes": [
+        "Personal absolute-path prefixes and hostname redacted; model identifiers, numeric values, status, software versions and historical hashes unchanged."
+      ]
+    },
+    {
+      "path": "records/main/esen-md-dir__r2x4x4.json",
+      "bytes": 1731,
+      "sha256": "c2b647abd3b590db346ff98c6e93bcf1cd5173b91ee8d7807cf362b61e4d9c4b",
+      "source": "_shared/speed-benchmark/water-test/benchmark_results_nvt_nh_20260716_164359/esen-md-dir__r2x4x4.json",
+      "source_sha256": "9749bed8eb52b14a493fd1f26bd32102907a8d095e3405edfce0d379dfbae4aa",
+      "changes": [
+        "Personal absolute-path prefixes and hostname redacted; model identifiers, numeric values, status, software versions and historical hashes unchanged."
+      ]
+    },
+    {
+      "path": "records/main/esen-md-dir__r3x3x4.json",
+      "bytes": 1734,
+      "sha256": "67337206b39b41c58a44c90e826bfddc5e02a33f241c9154025bfc716434e5cd",
+      "source": "_shared/speed-benchmark/water-test/benchmark_results_nvt_nh_20260716_164359/esen-md-dir__r3x3x4.json",
+      "source_sha256": "db195e69269d5537b34ed67700436a2a7cec076912bc701d0c5c5651d9d9f9cf",
+      "changes": [
+        "Personal absolute-path prefixes and hostname redacted; model identifiers, numeric values, status, software versions and historical hashes unchanged."
+      ]
+    },
+    {
+      "path": "records/main/esen-md-dir__r2x4x5.json",
+      "bytes": 1733,
+      "sha256": "8f453c4c57d45f6111f9e824fd1297550ab4bfc889f26e4ee7909354ecfae5c6",
+      "source": "_shared/speed-benchmark/water-test/benchmark_results_nvt_nh_20260716_164359/esen-md-dir__r2x4x5.json",
+      "source_sha256": "629649eb29e06fc3143a7051018515619327017d5500c9da0c3520d1185ab671",
+      "changes": [
+        "Personal absolute-path prefixes and hostname redacted; model identifiers, numeric values, status, software versions and historical hashes unchanged."
+      ]
+    },
+    {
+      "path": "records/main/esen-md-dir__r3x4x4.json",
+      "bytes": 1725,
+      "sha256": "88cff92273ab629608c98387cae4d499299278517ae975edd3ba4c4cc2c64768",
+      "source": "_shared/speed-benchmark/water-test/benchmark_results_nvt_nh_20260716_164359/esen-md-dir__r3x4x4.json",
+      "source_sha256": "9fac417bab8d88cf0e4d950988f068d4600b242fa1f36f9bd68e1940976465d8",
+      "changes": [
+        "Personal absolute-path prefixes and hostname redacted; model identifiers, numeric values, status, software versions and historical hashes unchanged."
+      ]
+    },
+    {
+      "path": "records/main/esen-md-dir__r3x3x6.json",
+      "bytes": 1736,
+      "sha256": "4d8c84d707faa41f92d453b15d760a1b2f9f87bdea9f1c9820b59f31b14287eb",
+      "source": "_shared/speed-benchmark/water-test/benchmark_results_nvt_nh_20260716_164359/esen-md-dir__r3x3x6.json",
+      "source_sha256": "6242e6c724e5fdd8e10eac453018a7b7d695bdd4000422dcecfc9945eda38b4e",
+      "changes": [
+        "Personal absolute-path prefixes and hostname redacted; model identifiers, numeric values, status, software versions and historical hashes unchanged."
+      ]
+    },
+    {
+      "path": "records/main/esen-md-dir__r3x4x5.json",
+      "bytes": 1733,
+      "sha256": "b025d530e91bcf40a1d5d89963aa2b4b80c323d1e31f55938c8e18da4c04e98d",
+      "source": "_shared/speed-benchmark/water-test/benchmark_results_nvt_nh_20260716_164359/esen-md-dir__r3x4x5.json",
+      "source_sha256": "79865a3c2ecb0804d7fcedbf99d2efce7e1e14b3fd7f2551a1fb3da53d623bb6",
+      "changes": [
+        "Personal absolute-path prefixes and hostname redacted; model identifiers, numeric values, status, software versions and historical hashes unchanged."
+      ]
+    },
+    {
+      "path": "records/main/esen-md-dir__r4x4x4.json",
+      "bytes": 1737,
+      "sha256": "a7edef4be73c67359abb2b50595b5a3cf05d9b152eedcd632d84a7b2c43bc0c4",
+      "source": "_shared/speed-benchmark/water-test/benchmark_results_nvt_nh_20260716_164359/esen-md-dir__r4x4x4.json",
+      "source_sha256": "080ca4089124126c75541bf7c998523b38eca6bcb53003cc1e2a5812bfe06c78",
+      "changes": [
+        "Personal absolute-path prefixes and hostname redacted; model identifiers, numeric values, status, software versions and historical hashes unchanged."
+      ]
+    },
+    {
+      "path": "records/main/esen-sm-con__r1x1x1.json",
+      "bytes": 1732,
+      "sha256": "91958c45c01d2c6fd3deb9c28318945d1b7fb456266a1ee789a68c100c206212",
+      "source": "_shared/speed-benchmark/water-test/benchmark_results_nvt_nh_20260716_164359/esen-sm-con__r1x1x1.json",
+      "source_sha256": "0e755dd3f4402c4d023cec001c95b143acbc46bb0a6931e83d24bbea0ff0f958",
+      "changes": [
+        "Personal absolute-path prefixes and hostname redacted; model identifiers, numeric values, status, software versions and historical hashes unchanged."
+      ]
+    },
+    {
+      "path": "records/main/esen-sm-con__r1x2x3.json",
+      "bytes": 1737,
+      "sha256": "f725ec70d82b3c4664a07dacc32d550ceb1a40c31b97a03edd421f4688186abb",
+      "source": "_shared/speed-benchmark/water-test/benchmark_results_nvt_nh_20260716_164359/esen-sm-con__r1x2x3.json",
+      "source_sha256": "b9f1a992b6110637b6af75c6af885610f354cd82034db8e564cca30b2d66be9a",
+      "changes": [
+        "Personal absolute-path prefixes and hostname redacted; model identifiers, numeric values, status, software versions and historical hashes unchanged."
+      ]
+    },
+    {
+      "path": "records/main/esen-sm-con__r1x2x5.json",
+      "bytes": 1735,
+      "sha256": "b56cd41d7758d9923024bc23b74ca86172ae2cace35c92b5ccd29c90bcf3b6ab",
+      "source": "_shared/speed-benchmark/water-test/benchmark_results_nvt_nh_20260716_164359/esen-sm-con__r1x2x5.json",
+      "source_sha256": "e94859ce9381c712fff89c50c196c66e27c3ea895388dc35edb078e162ed73e1",
+      "changes": [
+        "Personal absolute-path prefixes and hostname redacted; model identifiers, numeric values, status, software versions and historical hashes unchanged."
+      ]
+    },
+    {
+      "path": "records/main/esen-sm-con__r2x2x4.json",
+      "bytes": 1738,
+      "sha256": "c5f00997940d9248fd7ef87e43fd994b82e96ac30e275e8fc52cb7bb5d672c12",
+      "source": "_shared/speed-benchmark/water-test/benchmark_results_nvt_nh_20260716_164359/esen-sm-con__r2x2x4.json",
+      "source_sha256": "46e1393f22ef70ea12fe9fc750b668732808026f901407e08cd8dc3df5962b61",
+      "changes": [
+        "Personal absolute-path prefixes and hostname redacted; model identifiers, numeric values, status, software versions and historical hashes unchanged."
+      ]
+    },
+    {
+      "path": "records/main/esen-sm-con__r2x2x5.json",
+      "bytes": 1731,
+      "sha256": "48ef33a51629f9236e08006d59df6ed227efbcd8fff78312da0f396ff11b9a40",
+      "source": "_shared/speed-benchmark/water-test/benchmark_results_nvt_nh_20260716_164359/esen-sm-con__r2x2x5.json",
+      "source_sha256": "7f5a6dd1bedb728c492c9491f1157e912187daa6903908ea47922187fe5ac408",
+      "changes": [
+        "Personal absolute-path prefixes and hostname redacted; model identifiers, numeric values, status, software versions and historical hashes unchanged."
+      ]
+    },
+    {
+      "path": "records/main/esen-sm-con__r3x3x3.json",
+      "bytes": 1737,
+      "sha256": "bd9ab82e10a5e65eefa0ab9391bef649f77c46a3917729ef31ddd983fabd78a4",
+      "source": "_shared/speed-benchmark/water-test/benchmark_results_nvt_nh_20260716_164359/esen-sm-con__r3x3x3.json",
+      "source_sha256": "9aec90ef182f3bf926b58b2d600de839eede6abb6f8783a4affa4e5c3a2bc6ac",
+      "changes": [
+        "Personal absolute-path prefixes and hostname redacted; model identifiers, numeric values, status, software versions and historical hashes unchanged."
+      ]
+    },
+    {
+      "path": "records/main/esen-sm-con__r2x4x4.json",
+      "bytes": 1734,
+      "sha256": "16eb584e908c82d765a49860f1788a8a885fcf62750690798e52433b2fb3e0b9",
+      "source": "_shared/speed-benchmark/water-test/benchmark_results_nvt_nh_20260716_164359/esen-sm-con__r2x4x4.json",
+      "source_sha256": "592c6904e2cf0d0c18cda2227f5c0416a824a66f97166ed66ded2af7c3c88e39",
+      "changes": [
+        "Personal absolute-path prefixes and hostname redacted; model identifiers, numeric values, status, software versions and historical hashes unchanged."
+      ]
+    },
+    {
+      "path": "records/main/esen-sm-con__r3x3x4.json",
+      "bytes": 1737,
+      "sha256": "4126bf141a69b2d574b62b2b2fc36e3ec87c919568bd46d86b1cc2c317d5116a",
+      "source": "_shared/speed-benchmark/water-test/benchmark_results_nvt_nh_20260716_164359/esen-sm-con__r3x3x4.json",
+      "source_sha256": "f6eabb2018f6cb8086732179e86399688f45a5a6d1a647ee19d1decd603bbbb1",
+      "changes": [
+        "Personal absolute-path prefixes and hostname redacted; model identifiers, numeric values, status, software versions and historical hashes unchanged."
+      ]
+    },
+    {
+      "path": "records/main/esen-sm-con__r2x4x5.json",
+      "bytes": 1738,
+      "sha256": "631ab6c642dd4009a18b3af8b92eb12f7cbb3e49c33d5541122f2787b284a99a",
+      "source": "_shared/speed-benchmark/water-test/benchmark_results_nvt_nh_20260716_164359/esen-sm-con__r2x4x5.json",
+      "source_sha256": "751da2698ce13a6b45f8be3100081750a84b6ad062bec0dd2f6a0ff9948217ee",
+      "changes": [
+        "Personal absolute-path prefixes and hostname redacted; model identifiers, numeric values, status, software versions and historical hashes unchanged."
+      ]
+    },
+    {
+      "path": "records/main/esen-sm-con__r3x4x4.json",
+      "bytes": 1740,
+      "sha256": "c738601d0b76d5cce6fc71b95c84510aa7efd94f764ae1fffe6a50afb126fe6a",
+      "source": "_shared/speed-benchmark/water-test/benchmark_results_nvt_nh_20260716_164359/esen-sm-con__r3x4x4.json",
+      "source_sha256": "0a5554b4a1a48af047b4f499132a21b158eeb756e4e9a3d7de887b0dbbb82d72",
+      "changes": [
+        "Personal absolute-path prefixes and hostname redacted; model identifiers, numeric values, status, software versions and historical hashes unchanged."
+      ]
+    },
+    {
+      "path": "records/main/esen-sm-con__r3x3x6.json",
+      "bytes": 1736,
+      "sha256": "2ad4bc6325a2cddf702cca1fbebcc6b45b045f47c5ad53556440f92aa52f424e",
+      "source": "_shared/speed-benchmark/water-test/benchmark_results_nvt_nh_20260716_164359/esen-sm-con__r3x3x6.json",
+      "source_sha256": "d1ec46b0ce410034bf7843c5956afedc8e3618e4ec2a36540b5d00a62fc4004e",
+      "changes": [
+        "Personal absolute-path prefixes and hostname redacted; model identifiers, numeric values, status, software versions and historical hashes unchanged."
+      ]
+    },
+    {
+      "path": "records/main/esen-sm-con__r3x4x5.json",
+      "bytes": 1738,
+      "sha256": "612d5eebe1741e72ff1314c74b8da6dd3f53ebab4a9041ade9127522993fc118",
+      "source": "_shared/speed-benchmark/water-test/benchmark_results_nvt_nh_20260716_164359/esen-sm-con__r3x4x5.json",
+      "source_sha256": "b3f874249763de681dfd07a8decb843a16f46769845d88c6ab433daec741bea2",
+      "changes": [
+        "Personal absolute-path prefixes and hostname redacted; model identifiers, numeric values, status, software versions and historical hashes unchanged."
+      ]
+    },
+    {
+      "path": "records/main/esen-sm-con__r4x4x4.json",
+      "bytes": 1735,
+      "sha256": "aa20240ac4d3461c55325380d42ca25242ca5dbee5983b73d0e68ff731593dfa",
+      "source": "_shared/speed-benchmark/water-test/benchmark_results_nvt_nh_20260716_164359/esen-sm-con__r4x4x4.json",
+      "source_sha256": "4ddd07a4eaafa22a8c900b6e1ec4bb0e91080740e185670baf87ac789165e75c",
+      "changes": [
+        "Personal absolute-path prefixes and hostname redacted; model identifiers, numeric values, status, software versions and historical hashes unchanged."
+      ]
+    },
+    {
+      "path": "records/main/gemnet-oc22__r1x1x1.json",
+      "bytes": 1749,
+      "sha256": "1d481d77249e91b34cee58e92c338fc92a573b4124251584ba39ec0f6af714a0",
+      "source": "_shared/speed-benchmark/water-test/benchmark_results_nvt_nh_20260716_164359/gemnet-oc22__r1x1x1.json",
+      "source_sha256": "c00e1ef4033651af6891c23d9cb2f760b8c7348ae8842adb99167d392a598088",
+      "changes": [
+        "Personal absolute-path prefixes and hostname redacted; model identifiers, numeric values, status, software versions and historical hashes unchanged."
+      ]
+    },
+    {
+      "path": "records/main/gemnet-oc22__r1x2x3.json",
+      "bytes": 1748,
+      "sha256": "e1dcc6ce8460b7b8f18d61693d4c42ccd5b699bc8f80d8f9989f01ff9b422566",
+      "source": "_shared/speed-benchmark/water-test/benchmark_results_nvt_nh_20260716_164359/gemnet-oc22__r1x2x3.json",
+      "source_sha256": "229813c94d89291137f744ac074acbcb233ffebe57c0424538150ec7a11d9efd",
+      "changes": [
+        "Personal absolute-path prefixes and hostname redacted; model identifiers, numeric values, status, software versions and historical hashes unchanged."
+      ]
+    },
+    {
+      "path": "records/main/gemnet-oc22__r1x2x5.json",
+      "bytes": 1751,
+      "sha256": "0515bf37e5cfcfe19a1215f5a83072e5261dca04a1a1da7bfcd32e9c09abd5b2",
+      "source": "_shared/speed-benchmark/water-test/benchmark_results_nvt_nh_20260716_164359/gemnet-oc22__r1x2x5.json",
+      "source_sha256": "483ab7163f07984a5f5c0c63905e249ccb3740e59d46baf558692fc4841123eb",
+      "changes": [
+        "Personal absolute-path prefixes and hostname redacted; model identifiers, numeric values, status, software versions and historical hashes unchanged."
+      ]
+    },
+    {
+      "path": "records/main/gemnet-oc22__r2x2x4.json",
+      "bytes": 1749,
+      "sha256": "4a6792aaa5db457aa373f7001cf4408fe60d13d09c70a0049aac9cc248ad1bd5",
+      "source": "_shared/speed-benchmark/water-test/benchmark_results_nvt_nh_20260716_164359/gemnet-oc22__r2x2x4.json",
+      "source_sha256": "e3493d1b2a7d924af84242a849aca37a8f30f15eb8ef12873bcdd48405dd4bc7",
+      "changes": [
+        "Personal absolute-path prefixes and hostname redacted; model identifiers, numeric values, status, software versions and historical hashes unchanged."
+      ]
+    },
+    {
+      "path": "records/main/gemnet-oc22__r2x2x5.json",
+      "bytes": 1751,
+      "sha256": "c919889386e46f10b15283934cb608d49f436431f1ff819a49f6ed8bfa1d79c6",
+      "source": "_shared/speed-benchmark/water-test/benchmark_results_nvt_nh_20260716_164359/gemnet-oc22__r2x2x5.json",
+      "source_sha256": "47b55f50921de2dc67b1b4cd8300e7c551000bd4dda8fc6d2bbaffe20a01fe57",
+      "changes": [
+        "Personal absolute-path prefixes and hostname redacted; model identifiers, numeric values, status, software versions and historical hashes unchanged."
+      ]
+    },
+    {
+      "path": "records/main/gemnet-oc22__r3x3x3.json",
+      "bytes": 1753,
+      "sha256": "62ca1bafc739773695718b58b94a05dd13239bcecdabd50bc6f5129782f2ba94",
+      "source": "_shared/speed-benchmark/water-test/benchmark_results_nvt_nh_20260716_164359/gemnet-oc22__r3x3x3.json",
+      "source_sha256": "692e0e8cb23de3dda572090ba2a908111c7e2c02b20c84e22e7388027df2502c",
+      "changes": [
+        "Personal absolute-path prefixes and hostname redacted; model identifiers, numeric values, status, software versions and historical hashes unchanged."
+      ]
+    },
+    {
+      "path": "records/main/gemnet-oc22__r2x4x4.json",
+      "bytes": 1748,
+      "sha256": "3f7dcdf5389c1c1f316f7229628e334a4cb7f0b9d53e2565edc54a36d1260fed",
+      "source": "_shared/speed-benchmark/water-test/benchmark_results_nvt_nh_20260716_164359/gemnet-oc22__r2x4x4.json",
+      "source_sha256": "1b583ff7b5d516829fd18beaeeed34b1c4d673ce971e9195d2eee90d41dcbad6",
+      "changes": [
+        "Personal absolute-path prefixes and hostname redacted; model identifiers, numeric values, status, software versions and historical hashes unchanged."
+      ]
+    },
+    {
+      "path": "records/main/gemnet-oc22__r3x3x4.json",
+      "bytes": 1750,
+      "sha256": "7df47f7157d90c40744167ac13fd78447722ece1b1c3f80739e1a99f55f1bcaf",
+      "source": "_shared/speed-benchmark/water-test/benchmark_results_nvt_nh_20260716_164359/gemnet-oc22__r3x3x4.json",
+      "source_sha256": "b101be042fd953c08ebf5d197f27d4b3aa24faa7e3acef470999d48e0e6683ce",
+      "changes": [
+        "Personal absolute-path prefixes and hostname redacted; model identifiers, numeric values, status, software versions and historical hashes unchanged."
+      ]
+    },
+    {
+      "path": "records/main/gemnet-oc22__r2x4x5.json",
+      "bytes": 1751,
+      "sha256": "3eecf2e9855c7d178c0e9655fa668b2d536b9fb85b64804e9e6f9aaa6d7e5ce9",
+      "source": "_shared/speed-benchmark/water-test/benchmark_results_nvt_nh_20260716_164359/gemnet-oc22__r2x4x5.json",
+      "source_sha256": "0688d2581750edc2a8a22179324c33360c4c24b419c1936684032435530f1602",
+      "changes": [
+        "Personal absolute-path prefixes and hostname redacted; model identifiers, numeric values, status, software versions and historical hashes unchanged."
+      ]
+    },
+    {
+      "path": "records/main/gemnet-oc22__r3x4x4.json",
+      "bytes": 1748,
+      "sha256": "6b2ca71bffed7bc83842c89f81493a3633fd39a11faffd43e619d347271fc6e3",
+      "source": "_shared/speed-benchmark/water-test/benchmark_results_nvt_nh_20260716_164359/gemnet-oc22__r3x4x4.json",
+      "source_sha256": "e17823630829ca433644af5809bb09a5192a5cf71da99440d246335e446c95d1",
+      "changes": [
+        "Personal absolute-path prefixes and hostname redacted; model identifiers, numeric values, status, software versions and historical hashes unchanged."
+      ]
+    },
+    {
+      "path": "records/main/gemnet-oc22__r3x3x6.json",
+      "bytes": 1753,
+      "sha256": "a005db95df753a887353cc354db102b6a6e77425e33a2595f68cadd041a517d5",
+      "source": "_shared/speed-benchmark/water-test/benchmark_results_nvt_nh_20260716_164359/gemnet-oc22__r3x3x6.json",
+      "source_sha256": "294865b13c6dc6098f159fef15eafdb08f952f9bd5e3f2ccf8c5841bd152cfcd",
+      "changes": [
+        "Personal absolute-path prefixes and hostname redacted; model identifiers, numeric values, status, software versions and historical hashes unchanged."
+      ]
+    },
+    {
+      "path": "records/main/gemnet-oc22__r3x4x5.json",
+      "bytes": 1747,
+      "sha256": "41459fd9372507b62cc5ff5942d064f274ba3806c4ec891b0c975193dbaf2f10",
+      "source": "_shared/speed-benchmark/water-test/benchmark_results_nvt_nh_20260716_164359/gemnet-oc22__r3x4x5.json",
+      "source_sha256": "1538216316c51ebb28999f7255ab7c9ecd1e6c46b10c7f961f341e399b58f981",
+      "changes": [
+        "Personal absolute-path prefixes and hostname redacted; model identifiers, numeric values, status, software versions and historical hashes unchanged."
+      ]
+    },
+    {
+      "path": "records/main/gemnet-oc22__r4x4x4.json",
+      "bytes": 1750,
+      "sha256": "0934a00ef48c914fdb2abda3edd9dc65ad8713507d379714df7384034d48410f",
+      "source": "_shared/speed-benchmark/water-test/benchmark_results_nvt_nh_20260716_164359/gemnet-oc22__r4x4x4.json",
+      "source_sha256": "ce16fb1e2e878d85ecdbed517190ad97df60cd4b25f717a4f4b9cf68ff0199f4",
+      "changes": [
+        "Personal absolute-path prefixes and hostname redacted; model identifiers, numeric values, status, software versions and historical hashes unchanged."
+      ]
+    },
+    {
+      "path": "records/maceles/maceles-orbmol-cons-fp32__r1x1x1.json",
+      "bytes": 1780,
+      "sha256": "23d53c9ec6bfb248ff7d02bd5c24c5f6a540fdc51b37005cc20ff8de2ab36ed0",
+      "source": "_shared/speed-benchmark/water-test/benchmark_results_maceles_fp64_fp32_20260721_215708/maceles-orbmol-cons-fp32__r1x1x1.json",
+      "source_sha256": "0a291f100711b6ef16297b79b3030c49fe5cb4c523a9b62e62065826b92d9505",
+      "changes": [
+        "Personal absolute-path prefixes and hostname redacted; model identifiers, numeric values, status, software versions and historical hashes unchanged."
+      ]
+    },
+    {
+      "path": "records/maceles/maceles-orbmol-cons-fp32__r1x2x3.json",
+      "bytes": 1778,
+      "sha256": "3f061ccc46f87a280304bacbfca287b873eb146d8ed6a1a01e20f44e2b5a9d09",
+      "source": "_shared/speed-benchmark/water-test/benchmark_results_maceles_fp64_fp32_20260721_215708/maceles-orbmol-cons-fp32__r1x2x3.json",
+      "source_sha256": "dc86bce41fce198450d51691e3af798c76c95ed167d7da1cd00b14d19ca99766",
+      "changes": [
+        "Personal absolute-path prefixes and hostname redacted; model identifiers, numeric values, status, software versions and historical hashes unchanged."
+      ]
+    },
+    {
+      "path": "records/maceles/maceles-orbmol-cons-fp32__r1x2x5.json",
+      "bytes": 1782,
+      "sha256": "0cdba2b99c9dd6f16a791f0b741d58b484e4eeec4e68b1804cf0f5fc3bd7ad18",
+      "source": "_shared/speed-benchmark/water-test/benchmark_results_maceles_fp64_fp32_20260721_215708/maceles-orbmol-cons-fp32__r1x2x5.json",
+      "source_sha256": "2e808a51d9ae34d624e6045924126366373e28a9b2dc8fc541e0834f7d1afac6",
+      "changes": [
+        "Personal absolute-path prefixes and hostname redacted; model identifiers, numeric values, status, software versions and historical hashes unchanged."
+      ]
+    },
+    {
+      "path": "records/maceles/maceles-orbmol-cons-fp32__r2x2x4.json",
+      "bytes": 1781,
+      "sha256": "f5db8798202d51726e995fbb11e283de7a78582efa662d31b8e6fa5db251a307",
+      "source": "_shared/speed-benchmark/water-test/benchmark_results_maceles_fp64_fp32_20260721_215708/maceles-orbmol-cons-fp32__r2x2x4.json",
+      "source_sha256": "ce06ff4727c9673a49e94151e19ea898c7a3f43cc2cef1b3befb2d30d8a17e6d",
+      "changes": [
+        "Personal absolute-path prefixes and hostname redacted; model identifiers, numeric values, status, software versions and historical hashes unchanged."
+      ]
+    },
+    {
+      "path": "records/maceles/maceles-orbmol-cons-fp32__r2x2x5.json",
+      "bytes": 1780,
+      "sha256": "a264cd6fc0a6943e887ce41de5c1d60664396d95ede2392fc1fba3952b705d08",
+      "source": "_shared/speed-benchmark/water-test/benchmark_results_maceles_fp64_fp32_20260721_215708/maceles-orbmol-cons-fp32__r2x2x5.json",
+      "source_sha256": "908ad0a1191d1e2da4859278eb0c63f623e0d28b9f4b977265660c40e3af7571",
+      "changes": [
+        "Personal absolute-path prefixes and hostname redacted; model identifiers, numeric values, status, software versions and historical hashes unchanged."
+      ]
+    },
+    {
+      "path": "records/maceles/maceles-orbmol-cons-fp32__r3x3x3.json",
+      "bytes": 1780,
+      "sha256": "4eb0cc6185df58abc81413dc6d317381880a917e3f04d2e6a0fc19363e5ca918",
+      "source": "_shared/speed-benchmark/water-test/benchmark_results_maceles_fp64_fp32_20260721_215708/maceles-orbmol-cons-fp32__r3x3x3.json",
+      "source_sha256": "e901f2b54d926c537c3bf949f51429821328bd696fdff1e66a0dccdf6ab6bf56",
+      "changes": [
+        "Personal absolute-path prefixes and hostname redacted; model identifiers, numeric values, status, software versions and historical hashes unchanged."
+      ]
+    },
+    {
+      "path": "records/maceles/maceles-orbmol-cons-fp32__r2x4x4.json",
+      "bytes": 1779,
+      "sha256": "e0af5d65a1798f77ebbab1b1d129a4d07d451c4b61d4823c794a8fe82921aa12",
+      "source": "_shared/speed-benchmark/water-test/benchmark_results_maceles_fp64_fp32_20260721_215708/maceles-orbmol-cons-fp32__r2x4x4.json",
+      "source_sha256": "84e72f790e1918ab32ecf701d1832229b9b8b55c0627f49b20bebe1466b94039",
+      "changes": [
+        "Personal absolute-path prefixes and hostname redacted; model identifiers, numeric values, status, software versions and historical hashes unchanged."
+      ]
+    },
+    {
+      "path": "records/maceles/maceles-orbmol-cons-fp32__r3x3x4.json",
+      "bytes": 1782,
+      "sha256": "d318c452d26b84eaf87fb84d465993fba742b76060fa41424e1ea9db7dbca67a",
+      "source": "_shared/speed-benchmark/water-test/benchmark_results_maceles_fp64_fp32_20260721_215708/maceles-orbmol-cons-fp32__r3x3x4.json",
+      "source_sha256": "608a1dc5301a543692edda50f286060f1088c1715ba9bf353d9760126932b390",
+      "changes": [
+        "Personal absolute-path prefixes and hostname redacted; model identifiers, numeric values, status, software versions and historical hashes unchanged."
+      ]
+    },
+    {
+      "path": "records/maceles/maceles-orbmol-cons-fp32__r2x4x5.json",
+      "bytes": 1779,
+      "sha256": "8bcb5902f8fb4cee5f48ae0721007680e6c7d15e147527e8fb3fe842673eeaca",
+      "source": "_shared/speed-benchmark/water-test/benchmark_results_maceles_fp64_fp32_20260721_215708/maceles-orbmol-cons-fp32__r2x4x5.json",
+      "source_sha256": "ba439304129127a62175fc3cfbee6e55a43afe3777c820e679f125537eb9fc2e",
+      "changes": [
+        "Personal absolute-path prefixes and hostname redacted; model identifiers, numeric values, status, software versions and historical hashes unchanged."
+      ]
+    },
+    {
+      "path": "records/maceles/maceles-orbmol-cons-fp32__r3x4x4.json",
+      "bytes": 1782,
+      "sha256": "7b545da9441746291a3e7a844f05af996d24f6d07d5dc90cc4e176d2ebf9bc50",
+      "source": "_shared/speed-benchmark/water-test/benchmark_results_maceles_fp64_fp32_20260721_215708/maceles-orbmol-cons-fp32__r3x4x4.json",
+      "source_sha256": "dadf3d498d0e61f6a426d0ba949d7ff096a450add2f9eac95c9ea1d50ec1cb20",
+      "changes": [
+        "Personal absolute-path prefixes and hostname redacted; model identifiers, numeric values, status, software versions and historical hashes unchanged."
+      ]
+    },
+    {
+      "path": "records/maceles/maceles-orbmol-cons-fp32__r3x3x6.json",
+      "bytes": 1782,
+      "sha256": "daa8e638f9d37f34b03407e55153cdfd19feb6a657113063e648fbce9c232bdd",
+      "source": "_shared/speed-benchmark/water-test/benchmark_results_maceles_fp64_fp32_20260721_215708/maceles-orbmol-cons-fp32__r3x3x6.json",
+      "source_sha256": "d32f917921445eefef18df73ef347650e032042c0c8d29768e2cfbfc88425bce",
+      "changes": [
+        "Personal absolute-path prefixes and hostname redacted; model identifiers, numeric values, status, software versions and historical hashes unchanged."
+      ]
+    },
+    {
+      "path": "records/maceles/maceles-orbmol-cons-fp32__r3x4x5.json",
+      "bytes": 1779,
+      "sha256": "e6cbb5b1216e209b93cf1f74fdcf01acde2e9435a9f92e56965af17a675af5ad",
+      "source": "_shared/speed-benchmark/water-test/benchmark_results_maceles_fp64_fp32_20260721_215708/maceles-orbmol-cons-fp32__r3x4x5.json",
+      "source_sha256": "8131a2ac930c80a8d16f2af70bc35b58048446c1417f1b9b8777fc318c86525c",
+      "changes": [
+        "Personal absolute-path prefixes and hostname redacted; model identifiers, numeric values, status, software versions and historical hashes unchanged."
+      ]
+    },
+    {
+      "path": "records/maceles/maceles-orbmol-cons-fp32__r4x4x4.json",
+      "bytes": 1785,
+      "sha256": "2bb4b3328c351a025d2d06061c13fe5272fa5b4c0d74de8d09eb421f0a47ccf3",
+      "source": "_shared/speed-benchmark/water-test/benchmark_results_maceles_fp64_fp32_20260721_215708/maceles-orbmol-cons-fp32__r4x4x4.json",
+      "source_sha256": "e3e4f43599f4c13a631429d2514bf57f5afc95503d76c28ce0a1e3ef10fa06af",
+      "changes": [
+        "Personal absolute-path prefixes and hostname redacted; model identifiers, numeric values, status, software versions and historical hashes unchanged."
+      ]
+    },
+    {
+      "path": "records/main/mace-mh-1__r1x1x1.json",
+      "bytes": 1737,
+      "sha256": "cd903c98a7d41dff5b3fc90c4de663f8a0c8dff6b2768966b2d28be4ab4ff29b",
+      "source": "_shared/speed-benchmark/water-test/benchmark_results_nvt_nh_20260716_164359/mace-mh-1__r1x1x1.json",
+      "source_sha256": "8455088d3376049901a621c9aa26914ca00aacf41a5605625df998f0af0a594c",
+      "changes": [
+        "Personal absolute-path prefixes and hostname redacted; model identifiers, numeric values, status, software versions and historical hashes unchanged."
+      ]
+    },
+    {
+      "path": "records/main/mace-mh-1__r1x2x3.json",
+      "bytes": 1735,
+      "sha256": "8ed2ad0581af62b7814a5498c6ef4d407e23f36350874d06bd8a7c007c2282ae",
+      "source": "_shared/speed-benchmark/water-test/benchmark_results_nvt_nh_20260716_164359/mace-mh-1__r1x2x3.json",
+      "source_sha256": "ac43958ba046d81006b1ecff2db236c7ad04977e1b7c202d5e2d13e5aefc11c8",
+      "changes": [
+        "Personal absolute-path prefixes and hostname redacted; model identifiers, numeric values, status, software versions and historical hashes unchanged."
+      ]
+    },
+    {
+      "path": "records/main/mace-mh-1__r1x2x5.json",
+      "bytes": 1737,
+      "sha256": "eeea7b0bc8468dbecb4b5aa61808f3427e2bb9821d49a1b347c400973ae4f12b",
+      "source": "_shared/speed-benchmark/water-test/benchmark_results_nvt_nh_20260716_164359/mace-mh-1__r1x2x5.json",
+      "source_sha256": "131943e7fd8e16d7500642b8ba631710aa66d232fba2d796dc8de31ca91d2b22",
+      "changes": [
+        "Personal absolute-path prefixes and hostname redacted; model identifiers, numeric values, status, software versions and historical hashes unchanged."
+      ]
+    },
+    {
+      "path": "records/main/mace-mh-1__r2x2x4.json",
+      "bytes": 1744,
+      "sha256": "ac9578fe22dbbcda712f076b32d374bf7c065463175ccdfae2f53dc8c24cbf59",
+      "source": "_shared/speed-benchmark/water-test/benchmark_results_nvt_nh_20260716_164359/mace-mh-1__r2x2x4.json",
+      "source_sha256": "f8ddbfafc50c67f5dd03a6911d1bc938999c3c4e2d215c30f0d3b68afa11117d",
+      "changes": [
+        "Personal absolute-path prefixes and hostname redacted; model identifiers, numeric values, status, software versions and historical hashes unchanged."
+      ]
+    },
+    {
+      "path": "records/main/mace-mh-1__r2x2x5.json",
+      "bytes": 1739,
+      "sha256": "7451b9f453b2b447eab45704cbf229222291492f9eef1efa887752db127a533b",
+      "source": "_shared/speed-benchmark/water-test/benchmark_results_nvt_nh_20260716_164359/mace-mh-1__r2x2x5.json",
+      "source_sha256": "5c479691dc1b4e103e8c7608f78b3b5b7db5b0d135b28efccd686be32cd531da",
+      "changes": [
+        "Personal absolute-path prefixes and hostname redacted; model identifiers, numeric values, status, software versions and historical hashes unchanged."
+      ]
+    },
+    {
+      "path": "records/main/mace-mh-1__r3x3x3.json",
+      "bytes": 1741,
+      "sha256": "343302fa4803c938cc8b4dc85ab8db19796d72181f7a39d847d54c99d3504b4c",
+      "source": "_shared/speed-benchmark/water-test/benchmark_results_nvt_nh_20260716_164359/mace-mh-1__r3x3x3.json",
+      "source_sha256": "5590e52799a6c069a08d88b2b7562fe2a15533f57776037fb68407463bdf04e8",
+      "changes": [
+        "Personal absolute-path prefixes and hostname redacted; model identifiers, numeric values, status, software versions and historical hashes unchanged."
+      ]
+    },
+    {
+      "path": "records/main/mace-mh-1__r2x4x4.json",
+      "bytes": 4231,
+      "sha256": "26b6e2a5519c243aa251c111eaf66e55afc468e7ccdad1d4612dee365dd7b900",
+      "source": "_shared/speed-benchmark/water-test/benchmark_results_nvt_nh_20260716_164359/mace-mh-1__r2x4x4.json",
+      "source_sha256": "43bcf780db216fecb47014df4455fdcbddaa90cbf888a65653beb5e157bd6516",
+      "changes": [
+        "Personal absolute-path prefixes and hostname redacted; model identifiers, numeric values, status, software versions and historical hashes unchanged."
+      ]
+    },
+    {
+      "path": "records/main/mace-mh-1__r3x3x4.json",
+      "bytes": 233,
+      "sha256": "656d5985874293b67a677bf7786effb13a1700546ad7c7427192f76649d365b8",
+      "source": "_shared/speed-benchmark/water-test/benchmark_results_nvt_nh_20260716_164359/mace-mh-1__r3x3x4.json",
+      "source_sha256": "656d5985874293b67a677bf7786effb13a1700546ad7c7427192f76649d365b8",
+      "changes": [
+        "Personal absolute-path prefixes and hostname redacted; model identifiers, numeric values, status, software versions and historical hashes unchanged."
+      ]
+    },
+    {
+      "path": "records/main/mace-mh-1__r2x4x5.json",
+      "bytes": 233,
+      "sha256": "9759bf4c1cb17680bcdc8e430f4229ce5cbb4b875720d2c6b2f8599c297c8691",
+      "source": "_shared/speed-benchmark/water-test/benchmark_results_nvt_nh_20260716_164359/mace-mh-1__r2x4x5.json",
+      "source_sha256": "9759bf4c1cb17680bcdc8e430f4229ce5cbb4b875720d2c6b2f8599c297c8691",
+      "changes": [
+        "Personal absolute-path prefixes and hostname redacted; model identifiers, numeric values, status, software versions and historical hashes unchanged."
+      ]
+    },
+    {
+      "path": "records/main/mace-mh-1__r3x4x4.json",
+      "bytes": 233,
+      "sha256": "a66a336fcbab61918d0afdd00c69b2ed2bd87f9f86364929ac207a2667b9d02c",
+      "source": "_shared/speed-benchmark/water-test/benchmark_results_nvt_nh_20260716_164359/mace-mh-1__r3x4x4.json",
+      "source_sha256": "a66a336fcbab61918d0afdd00c69b2ed2bd87f9f86364929ac207a2667b9d02c",
+      "changes": [
+        "Personal absolute-path prefixes and hostname redacted; model identifiers, numeric values, status, software versions and historical hashes unchanged."
+      ]
+    },
+    {
+      "path": "records/main/mace-mh-1__r3x3x6.json",
+      "bytes": 234,
+      "sha256": "887fa671ba55e2ac5cf523a4481fa1fdccae4fa9d90fd33a2a48e327723e6226",
+      "source": "_shared/speed-benchmark/water-test/benchmark_results_nvt_nh_20260716_164359/mace-mh-1__r3x3x6.json",
+      "source_sha256": "887fa671ba55e2ac5cf523a4481fa1fdccae4fa9d90fd33a2a48e327723e6226",
+      "changes": [
+        "Personal absolute-path prefixes and hostname redacted; model identifiers, numeric values, status, software versions and historical hashes unchanged."
+      ]
+    },
+    {
+      "path": "records/main/mace-mh-1__r3x4x5.json",
+      "bytes": 234,
+      "sha256": "869c78a7080c2cc3705c9acf2f16de43fac9dd9d390d13e1bc15049e896985c0",
+      "source": "_shared/speed-benchmark/water-test/benchmark_results_nvt_nh_20260716_164359/mace-mh-1__r3x4x5.json",
+      "source_sha256": "869c78a7080c2cc3705c9acf2f16de43fac9dd9d390d13e1bc15049e896985c0",
+      "changes": [
+        "Personal absolute-path prefixes and hostname redacted; model identifiers, numeric values, status, software versions and historical hashes unchanged."
+      ]
+    },
+    {
+      "path": "records/main/mace-mh-1__r4x4x4.json",
+      "bytes": 234,
+      "sha256": "313302bde745b6d813f5b617a2ea21bfb4db974bb58bc5c89f62d35402cf089e",
+      "source": "_shared/speed-benchmark/water-test/benchmark_results_nvt_nh_20260716_164359/mace-mh-1__r4x4x4.json",
+      "source_sha256": "313302bde745b6d813f5b617a2ea21bfb4db974bb58bc5c89f62d35402cf089e",
+      "changes": [
+        "Personal absolute-path prefixes and hostname redacted; model identifiers, numeric values, status, software versions and historical hashes unchanged."
+      ]
+    },
+    {
+      "path": "records/main/mace-mp0__r1x1x1.json",
+      "bytes": 1753,
+      "sha256": "4f80b1ad2a50d6a633a1c5d1b070623ffa32f5a1499bc64768f1861bc9ef542e",
+      "source": "_shared/speed-benchmark/water-test/benchmark_results_nvt_nh_20260716_164359/mace-mp0__r1x1x1.json",
+      "source_sha256": "868f3dcccc4161e4bf7e6537eba74027875b2d4d5ed2be0ca94ad90eed7ec95c",
+      "changes": [
+        "Personal absolute-path prefixes and hostname redacted; model identifiers, numeric values, status, software versions and historical hashes unchanged."
+      ]
+    },
+    {
+      "path": "records/main/mace-mp0__r1x2x3.json",
+      "bytes": 1754,
+      "sha256": "cdc3f11ba5dd62522b1f2661a6ee7ca3ce3dcf33b514795fc05d489a5b697930",
+      "source": "_shared/speed-benchmark/water-test/benchmark_results_nvt_nh_20260716_164359/mace-mp0__r1x2x3.json",
+      "source_sha256": "afeebd3a6343b7f61f00a5474e76ed72eef8cc70b67badc672fd9c65cbb77792",
+      "changes": [
+        "Personal absolute-path prefixes and hostname redacted; model identifiers, numeric values, status, software versions and historical hashes unchanged."
+      ]
+    },
+    {
+      "path": "records/main/mace-mp0__r1x2x5.json",
+      "bytes": 1753,
+      "sha256": "5b1a625d94261b619274c189f56a9c60715b411aeeb47a5229a60d129e40de87",
+      "source": "_shared/speed-benchmark/water-test/benchmark_results_nvt_nh_20260716_164359/mace-mp0__r1x2x5.json",
+      "source_sha256": "683bbbeb508fd946ee4c246c71ac4d071968ffde01cf64784831ad2277040d7e",
+      "changes": [
+        "Personal absolute-path prefixes and hostname redacted; model identifiers, numeric values, status, software versions and historical hashes unchanged."
+      ]
+    },
+    {
+      "path": "records/main/mace-mp0__r2x2x4.json",
+      "bytes": 1756,
+      "sha256": "d8fd29b682b83d1f923b69f64212964d35f266ea82be36b920426167cea52b90",
+      "source": "_shared/speed-benchmark/water-test/benchmark_results_nvt_nh_20260716_164359/mace-mp0__r2x2x4.json",
+      "source_sha256": "6039b17b87db3c2b7b432c4c6383470a0bda16959a59f312c4bdcfe59bf1bed0",
+      "changes": [
+        "Personal absolute-path prefixes and hostname redacted; model identifiers, numeric values, status, software versions and historical hashes unchanged."
+      ]
+    },
+    {
+      "path": "records/main/mace-mp0__r2x2x5.json",
+      "bytes": 1758,
+      "sha256": "84dda3a2994c132129df177e27eaf3dee96ebfe1f2174d7f74e0e685bdf7f573",
+      "source": "_shared/speed-benchmark/water-test/benchmark_results_nvt_nh_20260716_164359/mace-mp0__r2x2x5.json",
+      "source_sha256": "9d573ae9e0e2bcdd5a6cf4dd495abb7e6d958306ceb64b91e2dbc4a08b0a3a12",
+      "changes": [
+        "Personal absolute-path prefixes and hostname redacted; model identifiers, numeric values, status, software versions and historical hashes unchanged."
+      ]
+    },
+    {
+      "path": "records/main/mace-mp0__r3x3x3.json",
+      "bytes": 3701,
+      "sha256": "9a96dfe9503fbe9f3031e053344eac2a3495463dbc65d47af97e45ac4341ac15",
+      "source": "_shared/speed-benchmark/water-test/benchmark_results_nvt_nh_20260716_164359/mace-mp0__r3x3x3.json",
+      "source_sha256": "98af435c1e0785d16b76a2c575ce5e0086555e430ccea25567df4effdb025419",
+      "changes": [
+        "Personal absolute-path prefixes and hostname redacted; model identifiers, numeric values, status, software versions and historical hashes unchanged."
+      ]
+    },
+    {
+      "path": "records/main/mace-mp0__r2x4x4.json",
+      "bytes": 232,
+      "sha256": "1e71c784f026c6988b2292b1e92a04569a9a7d3de554b4c6d9287081d3e64944",
+      "source": "_shared/speed-benchmark/water-test/benchmark_results_nvt_nh_20260716_164359/mace-mp0__r2x4x4.json",
+      "source_sha256": "1e71c784f026c6988b2292b1e92a04569a9a7d3de554b4c6d9287081d3e64944",
+      "changes": [
+        "Personal absolute-path prefixes and hostname redacted; model identifiers, numeric values, status, software versions and historical hashes unchanged."
+      ]
+    },
+    {
+      "path": "records/main/mace-mp0__r3x3x4.json",
+      "bytes": 232,
+      "sha256": "5484ad352fd9aa1ee9bea046aeef530480c63576a25269166b29572790d27299",
+      "source": "_shared/speed-benchmark/water-test/benchmark_results_nvt_nh_20260716_164359/mace-mp0__r3x3x4.json",
+      "source_sha256": "5484ad352fd9aa1ee9bea046aeef530480c63576a25269166b29572790d27299",
+      "changes": [
+        "Personal absolute-path prefixes and hostname redacted; model identifiers, numeric values, status, software versions and historical hashes unchanged."
+      ]
+    },
+    {
+      "path": "records/main/mace-mp0__r2x4x5.json",
+      "bytes": 232,
+      "sha256": "e75d97ea63aefe8ea109e8d0ffb40f79a129d569000bd9ea00a7845576848a1d",
+      "source": "_shared/speed-benchmark/water-test/benchmark_results_nvt_nh_20260716_164359/mace-mp0__r2x4x5.json",
+      "source_sha256": "e75d97ea63aefe8ea109e8d0ffb40f79a129d569000bd9ea00a7845576848a1d",
+      "changes": [
+        "Personal absolute-path prefixes and hostname redacted; model identifiers, numeric values, status, software versions and historical hashes unchanged."
+      ]
+    },
+    {
+      "path": "records/main/mace-mp0__r3x4x4.json",
+      "bytes": 232,
+      "sha256": "cfd7c5ded4119d4458b5eedc53ae3db07dce0b47d4f04f65745fff91aed9c683",
+      "source": "_shared/speed-benchmark/water-test/benchmark_results_nvt_nh_20260716_164359/mace-mp0__r3x4x4.json",
+      "source_sha256": "cfd7c5ded4119d4458b5eedc53ae3db07dce0b47d4f04f65745fff91aed9c683",
+      "changes": [
+        "Personal absolute-path prefixes and hostname redacted; model identifiers, numeric values, status, software versions and historical hashes unchanged."
+      ]
+    },
+    {
+      "path": "records/main/mace-mp0__r3x3x6.json",
+      "bytes": 233,
+      "sha256": "e9aa76df9ad0d1b3b41e4d023a3842fc8e4c052088605ea4784be578eeff6574",
+      "source": "_shared/speed-benchmark/water-test/benchmark_results_nvt_nh_20260716_164359/mace-mp0__r3x3x6.json",
+      "source_sha256": "e9aa76df9ad0d1b3b41e4d023a3842fc8e4c052088605ea4784be578eeff6574",
+      "changes": [
+        "Personal absolute-path prefixes and hostname redacted; model identifiers, numeric values, status, software versions and historical hashes unchanged."
+      ]
+    },
+    {
+      "path": "records/main/mace-mp0__r3x4x5.json",
+      "bytes": 233,
+      "sha256": "581454ec3a34b6c9a986057221ba2df877bc5b7b59b43ad8dd861e02fa94a967",
+      "source": "_shared/speed-benchmark/water-test/benchmark_results_nvt_nh_20260716_164359/mace-mp0__r3x4x5.json",
+      "source_sha256": "581454ec3a34b6c9a986057221ba2df877bc5b7b59b43ad8dd861e02fa94a967",
+      "changes": [
+        "Personal absolute-path prefixes and hostname redacted; model identifiers, numeric values, status, software versions and historical hashes unchanged."
+      ]
+    },
+    {
+      "path": "records/main/mace-mp0__r4x4x4.json",
+      "bytes": 233,
+      "sha256": "6c9a67045ec0e6fcd9e3652b1ef8c19262e2ef64230fcc066e5288a332b84a3e",
+      "source": "_shared/speed-benchmark/water-test/benchmark_results_nvt_nh_20260716_164359/mace-mp0__r4x4x4.json",
+      "source_sha256": "6c9a67045ec0e6fcd9e3652b1ef8c19262e2ef64230fcc066e5288a332b84a3e",
+      "changes": [
+        "Personal absolute-path prefixes and hostname redacted; model identifiers, numeric values, status, software versions and historical hashes unchanged."
+      ]
+    },
+    {
+      "path": "records/main/mace-off24-medium__r1x1x1.json",
+      "bytes": 1751,
+      "sha256": "c8fc784532ae780db63408a3ff49ba1c5743ff222cf7dbc87241d0b85c656a2b",
+      "source": "_shared/speed-benchmark/water-test/benchmark_results_nvt_nh_20260716_164359/mace-off24-medium__r1x1x1.json",
+      "source_sha256": "6982d9bc610ef1c2f85c522fb867b71593343e416a685d8b401c64faa508508f",
+      "changes": [
+        "Personal absolute-path prefixes and hostname redacted; model identifiers, numeric values, status, software versions and historical hashes unchanged."
+      ]
+    },
+    {
+      "path": "records/main/mace-off24-medium__r1x2x3.json",
+      "bytes": 1755,
+      "sha256": "ad7ce60b1af0e81faa7b0c79c12f55c42e2434a51b531901f51cd0ae85d67ed3",
+      "source": "_shared/speed-benchmark/water-test/benchmark_results_nvt_nh_20260716_164359/mace-off24-medium__r1x2x3.json",
+      "source_sha256": "fc4d2c21d02a8b08094301e4580c63dc840c17c0f32443360a2ae80e269e5253",
+      "changes": [
+        "Personal absolute-path prefixes and hostname redacted; model identifiers, numeric values, status, software versions and historical hashes unchanged."
+      ]
+    },
+    {
+      "path": "records/main/mace-off24-medium__r1x2x5.json",
+      "bytes": 1750,
+      "sha256": "1eaaf2038dd40469d8b1d10b57ea3157d8fd7317247a723b0e0b00f5e1272e22",
+      "source": "_shared/speed-benchmark/water-test/benchmark_results_nvt_nh_20260716_164359/mace-off24-medium__r1x2x5.json",
+      "source_sha256": "8bf4d2bfef45b0b99b1c4b924db4d99cc0db2ba59b685639eb05223550136f0c",
+      "changes": [
+        "Personal absolute-path prefixes and hostname redacted; model identifiers, numeric values, status, software versions and historical hashes unchanged."
+      ]
+    },
+    {
+      "path": "records/main/mace-off24-medium__r2x2x4.json",
+      "bytes": 1755,
+      "sha256": "c2a7d19257ab00a89efdd1f50b68687b04cb9647a5ea7012291d7246e0d71dbb",
+      "source": "_shared/speed-benchmark/water-test/benchmark_results_nvt_nh_20260716_164359/mace-off24-medium__r2x2x4.json",
+      "source_sha256": "e0798876b78ffe99f4e81d459990e0c34e5eaba8bd6d3a6756189e4532eebea4",
+      "changes": [
+        "Personal absolute-path prefixes and hostname redacted; model identifiers, numeric values, status, software versions and historical hashes unchanged."
+      ]
+    },
+    {
+      "path": "records/main/mace-off24-medium__r2x2x5.json",
+      "bytes": 1751,
+      "sha256": "2a0f650ad9bc4bc50225693bd106688bbdbbec25d712efd571fb9f722a2cb901",
+      "source": "_shared/speed-benchmark/water-test/benchmark_results_nvt_nh_20260716_164359/mace-off24-medium__r2x2x5.json",
+      "source_sha256": "636626e1b560b324cd36316dbab1ff215fb148b01f7b4537e50477464699027c",
+      "changes": [
+        "Personal absolute-path prefixes and hostname redacted; model identifiers, numeric values, status, software versions and historical hashes unchanged."
+      ]
+    },
+    {
+      "path": "records/main/mace-off24-medium__r3x3x3.json",
+      "bytes": 1752,
+      "sha256": "5b5da324f6ffdd32f91210c35145f795c4268c5226ae9f3176d2e61ef7c2ebe5",
+      "source": "_shared/speed-benchmark/water-test/benchmark_results_nvt_nh_20260716_164359/mace-off24-medium__r3x3x3.json",
+      "source_sha256": "8bb30248de35030d8e3286ff5e2b78d6d74f779871c520bb99887cea622dbfb1",
+      "changes": [
+        "Personal absolute-path prefixes and hostname redacted; model identifiers, numeric values, status, software versions and historical hashes unchanged."
+      ]
+    },
+    {
+      "path": "records/main/mace-off24-medium__r2x4x4.json",
+      "bytes": 1753,
+      "sha256": "28822469c288a96c009d8dba301d3027a286e85df91d4ca0d74419f52b5801ff",
+      "source": "_shared/speed-benchmark/water-test/benchmark_results_nvt_nh_20260716_164359/mace-off24-medium__r2x4x4.json",
+      "source_sha256": "39afc5bb2a4646adf818757bc78f74bcce3e670c2b5779ecbc49f375cf92ae1b",
+      "changes": [
+        "Personal absolute-path prefixes and hostname redacted; model identifiers, numeric values, status, software versions and historical hashes unchanged."
+      ]
+    },
+    {
+      "path": "records/main/mace-off24-medium__r3x3x4.json",
+      "bytes": 1755,
+      "sha256": "f8d76960ff3881a6e491ab521d62c7ca8cda15fe79e71cee466c768f228f6131",
+      "source": "_shared/speed-benchmark/water-test/benchmark_results_nvt_nh_20260716_164359/mace-off24-medium__r3x3x4.json",
+      "source_sha256": "6099e18538a8a6908c5ab38cddd74d7a6b02768348d08e7ed416bf484d56c14d",
+      "changes": [
+        "Personal absolute-path prefixes and hostname redacted; model identifiers, numeric values, status, software versions and historical hashes unchanged."
+      ]
+    },
+    {
+      "path": "records/main/mace-off24-medium__r2x4x5.json",
+      "bytes": 1754,
+      "sha256": "b6f1c965b6f40abd823fef64264e476a2549a4fd77c77d993f9679a57b6ef27f",
+      "source": "_shared/speed-benchmark/water-test/benchmark_results_nvt_nh_20260716_164359/mace-off24-medium__r2x4x5.json",
+      "source_sha256": "47f05263a0385ceaeef694583033cac1f42b7fa6d230cc020df156959868d81e",
+      "changes": [
+        "Personal absolute-path prefixes and hostname redacted; model identifiers, numeric values, status, software versions and historical hashes unchanged."
+      ]
+    },
+    {
+      "path": "records/main/mace-off24-medium__r3x4x4.json",
+      "bytes": 7165,
+      "sha256": "009569f4241e3da2d8adf7efbb80fe34f10a20ebcf74497674e4e37361b00d12",
+      "source": "_shared/speed-benchmark/water-test/benchmark_results_nvt_nh_20260716_164359/mace-off24-medium__r3x4x4.json",
+      "source_sha256": "34d923df295a34cb6b232590de26ee2cffac78a52ed3352adba5fe9219b5dd1a",
+      "changes": [
+        "Personal absolute-path prefixes and hostname redacted; model identifiers, numeric values, status, software versions and historical hashes unchanged."
+      ]
+    },
+    {
+      "path": "records/main/mace-off24-medium__r3x3x6.json",
+      "bytes": 242,
+      "sha256": "f225bf4eed2dce3f18c5284b208f674be10f04276a42c8eda58c026a4fafc4ce",
+      "source": "_shared/speed-benchmark/water-test/benchmark_results_nvt_nh_20260716_164359/mace-off24-medium__r3x3x6.json",
+      "source_sha256": "f225bf4eed2dce3f18c5284b208f674be10f04276a42c8eda58c026a4fafc4ce",
+      "changes": [
+        "Personal absolute-path prefixes and hostname redacted; model identifiers, numeric values, status, software versions and historical hashes unchanged."
+      ]
+    },
+    {
+      "path": "records/main/mace-off24-medium__r3x4x5.json",
+      "bytes": 242,
+      "sha256": "d9c5fa3567b971e0b94a87d0173d5fac75814bbef7023834d1538e306a3e98f0",
+      "source": "_shared/speed-benchmark/water-test/benchmark_results_nvt_nh_20260716_164359/mace-off24-medium__r3x4x5.json",
+      "source_sha256": "d9c5fa3567b971e0b94a87d0173d5fac75814bbef7023834d1538e306a3e98f0",
+      "changes": [
+        "Personal absolute-path prefixes and hostname redacted; model identifiers, numeric values, status, software versions and historical hashes unchanged."
+      ]
+    },
+    {
+      "path": "records/main/mace-off24-medium__r4x4x4.json",
+      "bytes": 242,
+      "sha256": "6ba37cf670cc952675b3462fa2a0cdc321ac44c27d38bb98772562e4b9be46cd",
+      "source": "_shared/speed-benchmark/water-test/benchmark_results_nvt_nh_20260716_164359/mace-off24-medium__r4x4x4.json",
+      "source_sha256": "6ba37cf670cc952675b3462fa2a0cdc321ac44c27d38bb98772562e4b9be46cd",
+      "changes": [
+        "Personal absolute-path prefixes and hostname redacted; model identifiers, numeric values, status, software versions and historical hashes unchanged."
+      ]
+    },
+    {
+      "path": "records/main/mace-omol-xl__r1x1x1.json",
+      "bytes": 1762,
+      "sha256": "53345050aca874e06d999e5fb11844bc86b7e5a7477560070b24d18b5594e7ad",
+      "source": "_shared/speed-benchmark/water-test/benchmark_results_nvt_nh_20260716_164359/mace-omol-xl__r1x1x1.json",
+      "source_sha256": "59a616cf3a9bdda8bae22874dfa4429524c10c692a64ed96febfb07beb0e14ed",
+      "changes": [
+        "Personal absolute-path prefixes and hostname redacted; model identifiers, numeric values, status, software versions and historical hashes unchanged."
+      ]
+    },
+    {
+      "path": "records/main/mace-omol-xl__r1x2x3.json",
+      "bytes": 1761,
+      "sha256": "cf1ab6dfc4ed598100af581c001856915f872cdc87fc0a853d96a96436071c39",
+      "source": "_shared/speed-benchmark/water-test/benchmark_results_nvt_nh_20260716_164359/mace-omol-xl__r1x2x3.json",
+      "source_sha256": "d276218f36474344fc350c7f0e8c99dd7036efd8921954c3ff551313e03e9eb1",
+      "changes": [
+        "Personal absolute-path prefixes and hostname redacted; model identifiers, numeric values, status, software versions and historical hashes unchanged."
+      ]
+    },
+    {
+      "path": "records/main/mace-omol-xl__r1x2x5.json",
+      "bytes": 1766,
+      "sha256": "b1afcb949e2eacc8b1cf5103457d35053f06c1e64af46fe2f9adfbb695013f4b",
+      "source": "_shared/speed-benchmark/water-test/benchmark_results_nvt_nh_20260716_164359/mace-omol-xl__r1x2x5.json",
+      "source_sha256": "307d0e8c760a24ad85641b9a150464863fada1295863a999600362c946d36509",
+      "changes": [
+        "Personal absolute-path prefixes and hostname redacted; model identifiers, numeric values, status, software versions and historical hashes unchanged."
+      ]
+    },
+    {
+      "path": "records/main/mace-omol-xl__r2x2x4.json",
+      "bytes": 3709,
+      "sha256": "59c5e89a69cddeca8b8b139ed09a3d0c40c86180f51db06d33617812da76c2d4",
+      "source": "_shared/speed-benchmark/water-test/benchmark_results_nvt_nh_20260716_164359/mace-omol-xl__r2x2x4.json",
+      "source_sha256": "59cd6ffd04cc862db7f132b35c099e4ae233b8ab0036a1908dc4b5a2550d79f2",
+      "changes": [
+        "Personal absolute-path prefixes and hostname redacted; model identifiers, numeric values, status, software versions and historical hashes unchanged."
+      ]
+    },
+    {
+      "path": "records/main/mace-omol-xl__r2x2x5.json",
+      "bytes": 236,
+      "sha256": "c941d6498b3a78f273de9ff4e8d700ec9ac552eab5615df089eb00954ebd430a",
+      "source": "_shared/speed-benchmark/water-test/benchmark_results_nvt_nh_20260716_164359/mace-omol-xl__r2x2x5.json",
+      "source_sha256": "c941d6498b3a78f273de9ff4e8d700ec9ac552eab5615df089eb00954ebd430a",
+      "changes": [
+        "Personal absolute-path prefixes and hostname redacted; model identifiers, numeric values, status, software versions and historical hashes unchanged."
+      ]
+    },
+    {
+      "path": "records/main/mace-omol-xl__r3x3x3.json",
+      "bytes": 236,
+      "sha256": "2c26f689278f19dfb18cd177b522471060aff2002e217af057e93e864a509a3b",
+      "source": "_shared/speed-benchmark/water-test/benchmark_results_nvt_nh_20260716_164359/mace-omol-xl__r3x3x3.json",
+      "source_sha256": "2c26f689278f19dfb18cd177b522471060aff2002e217af057e93e864a509a3b",
+      "changes": [
+        "Personal absolute-path prefixes and hostname redacted; model identifiers, numeric values, status, software versions and historical hashes unchanged."
+      ]
+    },
+    {
+      "path": "records/main/mace-omol-xl__r2x4x4.json",
+      "bytes": 236,
+      "sha256": "4e97cdfaca4e2fff1696e9bb734391b00b79b1659fb41581f8adc4dfe4ad4763",
+      "source": "_shared/speed-benchmark/water-test/benchmark_results_nvt_nh_20260716_164359/mace-omol-xl__r2x4x4.json",
+      "source_sha256": "4e97cdfaca4e2fff1696e9bb734391b00b79b1659fb41581f8adc4dfe4ad4763",
+      "changes": [
+        "Personal absolute-path prefixes and hostname redacted; model identifiers, numeric values, status, software versions and historical hashes unchanged."
+      ]
+    },
+    {
+      "path": "records/main/mace-omol-xl__r3x3x4.json",
+      "bytes": 236,
+      "sha256": "5b7b827b371bab75ed6f47007c1f4ba7716a07494cb1c1d2df5fb2812ecb06aa",
+      "source": "_shared/speed-benchmark/water-test/benchmark_results_nvt_nh_20260716_164359/mace-omol-xl__r3x3x4.json",
+      "source_sha256": "5b7b827b371bab75ed6f47007c1f4ba7716a07494cb1c1d2df5fb2812ecb06aa",
+      "changes": [
+        "Personal absolute-path prefixes and hostname redacted; model identifiers, numeric values, status, software versions and historical hashes unchanged."
+      ]
+    },
+    {
+      "path": "records/main/mace-omol-xl__r2x4x5.json",
+      "bytes": 236,
+      "sha256": "66d9b15c43fb51c3b0927e8c9779c6f14581f8c44d856554856ef7fec3c63ed5",
+      "source": "_shared/speed-benchmark/water-test/benchmark_results_nvt_nh_20260716_164359/mace-omol-xl__r2x4x5.json",
+      "source_sha256": "66d9b15c43fb51c3b0927e8c9779c6f14581f8c44d856554856ef7fec3c63ed5",
+      "changes": [
+        "Personal absolute-path prefixes and hostname redacted; model identifiers, numeric values, status, software versions and historical hashes unchanged."
+      ]
+    },
+    {
+      "path": "records/main/mace-omol-xl__r3x4x4.json",
+      "bytes": 236,
+      "sha256": "d85843823d5592a178064738a005f5a3c86d7593b00548b920077e5d615f82c6",
+      "source": "_shared/speed-benchmark/water-test/benchmark_results_nvt_nh_20260716_164359/mace-omol-xl__r3x4x4.json",
+      "source_sha256": "d85843823d5592a178064738a005f5a3c86d7593b00548b920077e5d615f82c6",
+      "changes": [
+        "Personal absolute-path prefixes and hostname redacted; model identifiers, numeric values, status, software versions and historical hashes unchanged."
+      ]
+    },
+    {
+      "path": "records/main/mace-omol-xl__r3x3x6.json",
+      "bytes": 237,
+      "sha256": "33ee4456c018c6dca756e348c43b0decb3fc5cd019990fca2dbc2bea2242e49b",
+      "source": "_shared/speed-benchmark/water-test/benchmark_results_nvt_nh_20260716_164359/mace-omol-xl__r3x3x6.json",
+      "source_sha256": "33ee4456c018c6dca756e348c43b0decb3fc5cd019990fca2dbc2bea2242e49b",
+      "changes": [
+        "Personal absolute-path prefixes and hostname redacted; model identifiers, numeric values, status, software versions and historical hashes unchanged."
+      ]
+    },
+    {
+      "path": "records/main/mace-omol-xl__r3x4x5.json",
+      "bytes": 237,
+      "sha256": "076353fbb5c9c54c37fdcdad79f64c384a28d1e81677028953debfae1641c82a",
+      "source": "_shared/speed-benchmark/water-test/benchmark_results_nvt_nh_20260716_164359/mace-omol-xl__r3x4x5.json",
+      "source_sha256": "076353fbb5c9c54c37fdcdad79f64c384a28d1e81677028953debfae1641c82a",
+      "changes": [
+        "Personal absolute-path prefixes and hostname redacted; model identifiers, numeric values, status, software versions and historical hashes unchanged."
+      ]
+    },
+    {
+      "path": "records/main/mace-omol-xl__r4x4x4.json",
+      "bytes": 237,
+      "sha256": "91fbf67ae6014727e4b9b01dc9ac40ea829b9126cc6fdc0a48660873620c47f2",
+      "source": "_shared/speed-benchmark/water-test/benchmark_results_nvt_nh_20260716_164359/mace-omol-xl__r4x4x4.json",
+      "source_sha256": "91fbf67ae6014727e4b9b01dc9ac40ea829b9126cc6fdc0a48660873620c47f2",
+      "changes": [
+        "Personal absolute-path prefixes and hostname redacted; model identifiers, numeric values, status, software versions and historical hashes unchanged."
+      ]
+    },
+    {
+      "path": "records/orb_rerun/orb-v3-conservative-omol__r1x1x1.json",
+      "bytes": 1783,
+      "sha256": "ca71aaf23b88a73f9c2584f636b5e470bbd796f27e2222fec30aea36346a7b11",
+      "source": "_shared/speed-benchmark/water-test/benchmark_results_orb_rerun/orb-v3-conservative-omol__r1x1x1.json",
+      "source_sha256": "7d7fa1ccd2902a4aec870298d891d7d974cda16feb28114a31c5966d7c9f9c40",
+      "changes": [
+        "Personal absolute-path prefixes and hostname redacted; model identifiers, numeric values, status, software versions and historical hashes unchanged."
+      ]
+    },
+    {
+      "path": "records/orb_rerun/orb-v3-conservative-omol__r1x2x3.json",
+      "bytes": 1785,
+      "sha256": "d6d9cae5c1a2e4a0cffe175ae65f2b6d958971f486825353c822195e9b382ce8",
+      "source": "_shared/speed-benchmark/water-test/benchmark_results_orb_rerun/orb-v3-conservative-omol__r1x2x3.json",
+      "source_sha256": "d4254f21dd83ede7a249b7c1801af5067e6f53e2ec3b9c6704fedf36541d5c2b",
+      "changes": [
+        "Personal absolute-path prefixes and hostname redacted; model identifiers, numeric values, status, software versions and historical hashes unchanged."
+      ]
+    },
+    {
+      "path": "records/orb_rerun/orb-v3-conservative-omol__r1x2x5.json",
+      "bytes": 1785,
+      "sha256": "e63ec10e5bb055e07159ce7f10517ccacb3c604e6a37f4320bb83ffcbd7f9727",
+      "source": "_shared/speed-benchmark/water-test/benchmark_results_orb_rerun/orb-v3-conservative-omol__r1x2x5.json",
+      "source_sha256": "eaca801cccef1071b26f6e81891e04a20e8725250715beb4e6ce5a47552cd823",
+      "changes": [
+        "Personal absolute-path prefixes and hostname redacted; model identifiers, numeric values, status, software versions and historical hashes unchanged."
+      ]
+    },
+    {
+      "path": "records/orb_rerun/orb-v3-conservative-omol__r2x2x4.json",
+      "bytes": 1780,
+      "sha256": "019d5c2e2a0a7b850a73b1cea7a00d325fb96b6f482c5c6a10135fb0e85f96a2",
+      "source": "_shared/speed-benchmark/water-test/benchmark_results_orb_rerun/orb-v3-conservative-omol__r2x2x4.json",
+      "source_sha256": "75eefca6ffa48a1b84efaf8bd3f1a21f0255f07e1e106bad08c515ee7dc37a74",
+      "changes": [
+        "Personal absolute-path prefixes and hostname redacted; model identifiers, numeric values, status, software versions and historical hashes unchanged."
+      ]
+    },
+    {
+      "path": "records/orb_rerun/orb-v3-conservative-omol__r2x2x5.json",
+      "bytes": 1784,
+      "sha256": "bb8eef993aa8a9137034f54d89f1c5453333dc38209557722bf1011e4e4e8d9c",
+      "source": "_shared/speed-benchmark/water-test/benchmark_results_orb_rerun/orb-v3-conservative-omol__r2x2x5.json",
+      "source_sha256": "f5ad49ab9e6e8c8b2cf45dcb50247f2d25baaa93f9188dac07a67663ac4601cc",
+      "changes": [
+        "Personal absolute-path prefixes and hostname redacted; model identifiers, numeric values, status, software versions and historical hashes unchanged."
+      ]
+    },
+    {
+      "path": "records/orb_rerun/orb-v3-conservative-omol__r3x3x3.json",
+      "bytes": 1780,
+      "sha256": "55247ce42208dad462e35b9ed456bf6ba983c5c9f6e7c910d088c7750fa5e180",
+      "source": "_shared/speed-benchmark/water-test/benchmark_results_orb_rerun/orb-v3-conservative-omol__r3x3x3.json",
+      "source_sha256": "87f7a2af3ba5b382be406035540e1c1d854425c3ea82b29197f53e8ec8f2acf5",
+      "changes": [
+        "Personal absolute-path prefixes and hostname redacted; model identifiers, numeric values, status, software versions and historical hashes unchanged."
+      ]
+    },
+    {
+      "path": "records/orb_rerun/orb-v3-conservative-omol__r2x4x4.json",
+      "bytes": 1783,
+      "sha256": "75adcd919007fa7d791089030ece524e6f3d7d0fb9d2ea99a461eb366e5b8006",
+      "source": "_shared/speed-benchmark/water-test/benchmark_results_orb_rerun/orb-v3-conservative-omol__r2x4x4.json",
+      "source_sha256": "78f39e38f19f7f4a021bbb4c7d9d7b835b85e62130e88ef5993dcd218c9e782e",
+      "changes": [
+        "Personal absolute-path prefixes and hostname redacted; model identifiers, numeric values, status, software versions and historical hashes unchanged."
+      ]
+    },
+    {
+      "path": "records/orb_rerun/orb-v3-conservative-omol__r3x3x4.json",
+      "bytes": 1780,
+      "sha256": "5b2b855b360a64bdf1aae5b51e643144f0978e0c4aa712a8207b17a4b0625ebf",
+      "source": "_shared/speed-benchmark/water-test/benchmark_results_orb_rerun/orb-v3-conservative-omol__r3x3x4.json",
+      "source_sha256": "89eeab509205daed013cf3b65d760a175b9f304413eb71a87b5be286bafb6447",
+      "changes": [
+        "Personal absolute-path prefixes and hostname redacted; model identifiers, numeric values, status, software versions and historical hashes unchanged."
+      ]
+    },
+    {
+      "path": "records/orb_rerun/orb-v3-conservative-omol__r2x4x5.json",
+      "bytes": 1786,
+      "sha256": "83d7d6a00e1a897746ed9161fda7190da880c8360cb6a84003fa22b4df83be80",
+      "source": "_shared/speed-benchmark/water-test/benchmark_results_orb_rerun/orb-v3-conservative-omol__r2x4x5.json",
+      "source_sha256": "490c9ac85057cdf7cd11cb3f7ed1071b33e05956143d281322efc788ec129057",
+      "changes": [
+        "Personal absolute-path prefixes and hostname redacted; model identifiers, numeric values, status, software versions and historical hashes unchanged."
+      ]
+    },
+    {
+      "path": "records/orb_rerun/orb-v3-conservative-omol__r3x4x4.json",
+      "bytes": 1783,
+      "sha256": "504c060bfb99fcabb5124fcddd934f8e5868fef8afe214ac2b81a5cda6e8e98e",
+      "source": "_shared/speed-benchmark/water-test/benchmark_results_orb_rerun/orb-v3-conservative-omol__r3x4x4.json",
+      "source_sha256": "a8e9fec044a15dee7f5c005d22035b64b882ce665a92c637cce70a2569ac73b7",
+      "changes": [
+        "Personal absolute-path prefixes and hostname redacted; model identifiers, numeric values, status, software versions and historical hashes unchanged."
+      ]
+    },
+    {
+      "path": "records/orb_rerun/orb-v3-conservative-omol__r3x3x6.json",
+      "bytes": 1781,
+      "sha256": "7c9b1ede2a5596d030b2d4b21c558fdb3bcc36066aca531b0e36d25c077d914a",
+      "source": "_shared/speed-benchmark/water-test/benchmark_results_orb_rerun/orb-v3-conservative-omol__r3x3x6.json",
+      "source_sha256": "a7aa962e03aa8b1241e623d0590ce4ae6de024520b1b32c19dbd52413964306e",
+      "changes": [
+        "Personal absolute-path prefixes and hostname redacted; model identifiers, numeric values, status, software versions and historical hashes unchanged."
+      ]
+    },
+    {
+      "path": "records/orb_rerun/orb-v3-conservative-omol__r3x4x5.json",
+      "bytes": 1782,
+      "sha256": "0b6330a48dd85abca6671172dcf96fd3576085100a1961f982e8d4b9890efe92",
+      "source": "_shared/speed-benchmark/water-test/benchmark_results_orb_rerun/orb-v3-conservative-omol__r3x4x5.json",
+      "source_sha256": "3250e101f216ff886e734bba75576f4f227f45b02f3ffe700f657ea25d3e0177",
+      "changes": [
+        "Personal absolute-path prefixes and hostname redacted; model identifiers, numeric values, status, software versions and historical hashes unchanged."
+      ]
+    },
+    {
+      "path": "records/orb_rerun/orb-v3-conservative-omol__r4x4x4.json",
+      "bytes": 1783,
+      "sha256": "e2adc19c66b7fbff23af1138bafbb7e0c5c81cfb380330f04db27dbff1b16bdb",
+      "source": "_shared/speed-benchmark/water-test/benchmark_results_orb_rerun/orb-v3-conservative-omol__r4x4x4.json",
+      "source_sha256": "9213b8af35e7487027082da54015de15467992355a4c4eb1fa0d801b1a1839d9",
+      "changes": [
+        "Personal absolute-path prefixes and hostname redacted; model identifiers, numeric values, status, software versions and historical hashes unchanged."
+      ]
+    },
+    {
+      "path": "records/main/orb-v3-direct-omol__r1x1x1.json",
+      "bytes": 1764,
+      "sha256": "106f25c54900805bb80d7ded6df2e81ff61a3545202ce44fac5f692897af4984",
+      "source": "_shared/speed-benchmark/water-test/benchmark_results_nvt_nh_20260716_164359/orb-v3-direct-omol__r1x1x1.json",
+      "source_sha256": "b5e23b436fe8a3945332c3d7bcd15dbdc7e78aa4f6dd8824ced13e0ed330e499",
+      "changes": [
+        "Personal absolute-path prefixes and hostname redacted; model identifiers, numeric values, status, software versions and historical hashes unchanged."
+      ]
+    },
+    {
+      "path": "records/main/orb-v3-direct-omol__r1x2x3.json",
+      "bytes": 1769,
+      "sha256": "f4a227b9fca5e5a8d9d8f651140594f74367bff7f1a75e17b92f0c4f858ec344",
+      "source": "_shared/speed-benchmark/water-test/benchmark_results_nvt_nh_20260716_164359/orb-v3-direct-omol__r1x2x3.json",
+      "source_sha256": "6ec9e91bdbf93f7bd5ecf8058a992a1007f736fd5d2cc7b189012bacfbc8ecb9",
+      "changes": [
+        "Personal absolute-path prefixes and hostname redacted; model identifiers, numeric values, status, software versions and historical hashes unchanged."
+      ]
+    },
+    {
+      "path": "records/main/orb-v3-direct-omol__r1x2x5.json",
+      "bytes": 1771,
+      "sha256": "7f6ec115b5108a8328802c5dcb4494cb49ae746a14fe354450c803616c799d76",
+      "source": "_shared/speed-benchmark/water-test/benchmark_results_nvt_nh_20260716_164359/orb-v3-direct-omol__r1x2x5.json",
+      "source_sha256": "884108e656c9ae38f42a55973770c5bf2b97de1699dfcfe007de731a334e551a",
+      "changes": [
+        "Personal absolute-path prefixes and hostname redacted; model identifiers, numeric values, status, software versions and historical hashes unchanged."
+      ]
+    },
+    {
+      "path": "records/main/orb-v3-direct-omol__r2x2x4.json",
+      "bytes": 1764,
+      "sha256": "e6b4d1aea8780d71aff6b4cece9288754a4628a1a2c9060667f1dc6ec21b286c",
+      "source": "_shared/speed-benchmark/water-test/benchmark_results_nvt_nh_20260716_164359/orb-v3-direct-omol__r2x2x4.json",
+      "source_sha256": "a00ce573d7712e3a9e75620f02a4e4b10e3f853667cdb511150663cb7252993c",
+      "changes": [
+        "Personal absolute-path prefixes and hostname redacted; model identifiers, numeric values, status, software versions and historical hashes unchanged."
+      ]
+    },
+    {
+      "path": "records/main/orb-v3-direct-omol__r2x2x5.json",
+      "bytes": 1769,
+      "sha256": "16baf6729bc17ef0f9dda8f33eaf92f05a572a148ca7c3c9d7ac3d49b743f58d",
+      "source": "_shared/speed-benchmark/water-test/benchmark_results_nvt_nh_20260716_164359/orb-v3-direct-omol__r2x2x5.json",
+      "source_sha256": "b36e92383121558035cc08231b5fde96c9ce849906a4644284ce19c8034768db",
+      "changes": [
+        "Personal absolute-path prefixes and hostname redacted; model identifiers, numeric values, status, software versions and historical hashes unchanged."
+      ]
+    },
+    {
+      "path": "records/main/orb-v3-direct-omol__r3x3x3.json",
+      "bytes": 1773,
+      "sha256": "1aa51ac7b4fb9db4729accabd0dc0a543f36f1bcb1f3d0b086863100ad270499",
+      "source": "_shared/speed-benchmark/water-test/benchmark_results_nvt_nh_20260716_164359/orb-v3-direct-omol__r3x3x3.json",
+      "source_sha256": "a8dae6288b9e525faf49e6bb3cb1e1a09b6fe82400bf5ba26c7c6c1dc9b0165d",
+      "changes": [
+        "Personal absolute-path prefixes and hostname redacted; model identifiers, numeric values, status, software versions and historical hashes unchanged."
+      ]
+    },
+    {
+      "path": "records/main/orb-v3-direct-omol__r2x4x4.json",
+      "bytes": 1769,
+      "sha256": "54ed62cc17c649736dfc899cc1d294bbc78570181d0aedb68965771742a57dd8",
+      "source": "_shared/speed-benchmark/water-test/benchmark_results_nvt_nh_20260716_164359/orb-v3-direct-omol__r2x4x4.json",
+      "source_sha256": "c73d4aed39096555680a1ff483b4ed8d02625fe61829c7acdb13401b75f0e1d7",
+      "changes": [
+        "Personal absolute-path prefixes and hostname redacted; model identifiers, numeric values, status, software versions and historical hashes unchanged."
+      ]
+    },
+    {
+      "path": "records/main/orb-v3-direct-omol__r3x3x4.json",
+      "bytes": 1772,
+      "sha256": "647992d7ce0ed6757838a330719f70e69afc32b52e6192a7086c6a989ce1de6c",
+      "source": "_shared/speed-benchmark/water-test/benchmark_results_nvt_nh_20260716_164359/orb-v3-direct-omol__r3x3x4.json",
+      "source_sha256": "d5c85046fa532920b333ae2a72256765aa2298b0d32c5df5370dac6974d2cf00",
+      "changes": [
+        "Personal absolute-path prefixes and hostname redacted; model identifiers, numeric values, status, software versions and historical hashes unchanged."
+      ]
+    },
+    {
+      "path": "records/main/orb-v3-direct-omol__r2x4x5.json",
+      "bytes": 1769,
+      "sha256": "f732d8e1b87f4904d59ba585178532a41184327c9a899c01a17ce02bfe40e64c",
+      "source": "_shared/speed-benchmark/water-test/benchmark_results_nvt_nh_20260716_164359/orb-v3-direct-omol__r2x4x5.json",
+      "source_sha256": "ff3d5bf4a1557c6cf98b3e2da8af921f9ae13093ad99a706ce7aa19dc3ad80c4",
+      "changes": [
+        "Personal absolute-path prefixes and hostname redacted; model identifiers, numeric values, status, software versions and historical hashes unchanged."
+      ]
+    },
+    {
+      "path": "records/main/orb-v3-direct-omol__r3x4x4.json",
+      "bytes": 1770,
+      "sha256": "36c99b756e55d90a616198acdabc1b1d1f6847d1d0b3c16aa8602870cd7a22f4",
+      "source": "_shared/speed-benchmark/water-test/benchmark_results_nvt_nh_20260716_164359/orb-v3-direct-omol__r3x4x4.json",
+      "source_sha256": "7c459e10a3ac9ea971d58a22c516856ad943659c24f031c8f009047c357e65c6",
+      "changes": [
+        "Personal absolute-path prefixes and hostname redacted; model identifiers, numeric values, status, software versions and historical hashes unchanged."
+      ]
+    },
+    {
+      "path": "records/main/orb-v3-direct-omol__r3x3x6.json",
+      "bytes": 1774,
+      "sha256": "de6b89a640cd55a5fad5a9ef1a505aa5f33825542161a78d5057032b222a92eb",
+      "source": "_shared/speed-benchmark/water-test/benchmark_results_nvt_nh_20260716_164359/orb-v3-direct-omol__r3x3x6.json",
+      "source_sha256": "6e35c7d74c40a1e823e0a4edcf59bd2b83df184bccb92be89c43f32b15858ec1",
+      "changes": [
+        "Personal absolute-path prefixes and hostname redacted; model identifiers, numeric values, status, software versions and historical hashes unchanged."
+      ]
+    },
+    {
+      "path": "records/main/orb-v3-direct-omol__r3x4x5.json",
+      "bytes": 1770,
+      "sha256": "003702cf81a5a1b57a5c76cda3bca7ae26bfef74864fe15399f7f9b57e867f12",
+      "source": "_shared/speed-benchmark/water-test/benchmark_results_nvt_nh_20260716_164359/orb-v3-direct-omol__r3x4x5.json",
+      "source_sha256": "30924ee428aaac774edd2b00dd5ab66dce6330dbe949e96cf446695bea74e5ea",
+      "changes": [
+        "Personal absolute-path prefixes and hostname redacted; model identifiers, numeric values, status, software versions and historical hashes unchanged."
+      ]
+    },
+    {
+      "path": "records/main/orb-v3-direct-omol__r4x4x4.json",
+      "bytes": 1772,
+      "sha256": "d51a47654afea6b7fecdd4a7bacee75d925d435ee64a7c58524ee1694b6ea3b8",
+      "source": "_shared/speed-benchmark/water-test/benchmark_results_nvt_nh_20260716_164359/orb-v3-direct-omol__r4x4x4.json",
+      "source_sha256": "a29db26dbb4855b0ac564bcd51afc6af1376998c2c56bc1d54431341e6b81bc0",
+      "changes": [
+        "Personal absolute-path prefixes and hostname redacted; model identifiers, numeric values, status, software versions and historical hashes unchanged."
+      ]
+    },
+    {
+      "path": "records/main/uma-m-omol__r1x1x1.json",
+      "bytes": 1717,
+      "sha256": "9e502854f108f845d66fba1a31889a4ea2467f74c3a5eb8a631bf1e50458f1e8",
+      "source": "_shared/speed-benchmark/water-test/benchmark_results_nvt_nh_20260716_164359/uma-m-omol__r1x1x1.json",
+      "source_sha256": "0f30f40222c36f6df9268e21881eedfffcfd912b04ca1da2e1d727f251fcc303",
+      "changes": [
+        "Personal absolute-path prefixes and hostname redacted; model identifiers, numeric values, status, software versions and historical hashes unchanged."
+      ]
+    },
+    {
+      "path": "records/main/uma-m-omol__r1x2x3.json",
+      "bytes": 1714,
+      "sha256": "cab4a17f8ce9c351d0d73e7fd839e901f3036718ab7599221dcae4de2764eabf",
+      "source": "_shared/speed-benchmark/water-test/benchmark_results_nvt_nh_20260716_164359/uma-m-omol__r1x2x3.json",
+      "source_sha256": "5a35ffc08b21b887ddea7a11a1b254710b4960372cd39bc2ccaf6964c900538a",
+      "changes": [
+        "Personal absolute-path prefixes and hostname redacted; model identifiers, numeric values, status, software versions and historical hashes unchanged."
+      ]
+    },
+    {
+      "path": "records/main/uma-m-omol__r1x2x5.json",
+      "bytes": 1717,
+      "sha256": "b2db3869a171ffc61238e207286537e678814a3b342622a0e188e7009f4ec1df",
+      "source": "_shared/speed-benchmark/water-test/benchmark_results_nvt_nh_20260716_164359/uma-m-omol__r1x2x5.json",
+      "source_sha256": "64dad165511db7d9680bb0eb26c294e8fc7cf8f0e6807154648b8320b25f1053",
+      "changes": [
+        "Personal absolute-path prefixes and hostname redacted; model identifiers, numeric values, status, software versions and historical hashes unchanged."
+      ]
+    },
+    {
+      "path": "records/main/uma-m-omol__r2x2x4.json",
+      "bytes": 1717,
+      "sha256": "c233c8f14504fa2be0dc77c040028d1322b8ef8ba3b2afdaf0ce99638fc70c7d",
+      "source": "_shared/speed-benchmark/water-test/benchmark_results_nvt_nh_20260716_164359/uma-m-omol__r2x2x4.json",
+      "source_sha256": "b3ac3bbc9401d074adc5fdaeb89afd0de1ed217d88e566ad20f1150c057d5593",
+      "changes": [
+        "Personal absolute-path prefixes and hostname redacted; model identifiers, numeric values, status, software versions and historical hashes unchanged."
+      ]
+    },
+    {
+      "path": "records/main/uma-m-omol__r2x2x5.json",
+      "bytes": 1717,
+      "sha256": "104c5fc7339f386ff03a183a25166da16c6d6924c04f45f1a1184d84d0c01c83",
+      "source": "_shared/speed-benchmark/water-test/benchmark_results_nvt_nh_20260716_164359/uma-m-omol__r2x2x5.json",
+      "source_sha256": "71884fde7d18e64fada89b23e7d79551077ba09b2f090200305b6ea2980507ac",
+      "changes": [
+        "Personal absolute-path prefixes and hostname redacted; model identifiers, numeric values, status, software versions and historical hashes unchanged."
+      ]
+    },
+    {
+      "path": "records/main/uma-m-omol__r3x3x3.json",
+      "bytes": 1719,
+      "sha256": "3faab0910b3258c03ac794361982973522435ba1d854789917389718b6c94952",
+      "source": "_shared/speed-benchmark/water-test/benchmark_results_nvt_nh_20260716_164359/uma-m-omol__r3x3x3.json",
+      "source_sha256": "ad21d63c677da0c618c58ad4c0fff5ce2adff6f991a86809e4a6c23e5e9fd6fd",
+      "changes": [
+        "Personal absolute-path prefixes and hostname redacted; model identifiers, numeric values, status, software versions and historical hashes unchanged."
+      ]
+    },
+    {
+      "path": "records/main/uma-m-omol__r2x4x4.json",
+      "bytes": 1717,
+      "sha256": "270c754a1e497f8f14e0bc4ba9f40da893285e9bd5c86c6f492637876351ea08",
+      "source": "_shared/speed-benchmark/water-test/benchmark_results_nvt_nh_20260716_164359/uma-m-omol__r2x4x4.json",
+      "source_sha256": "d6795ef48e85a1e046f29ba5ab0e559af95a1e44db734e73f5d3f3e3bae3c983",
+      "changes": [
+        "Personal absolute-path prefixes and hostname redacted; model identifiers, numeric values, status, software versions and historical hashes unchanged."
+      ]
+    },
+    {
+      "path": "records/main/uma-m-omol__r3x3x4.json",
+      "bytes": 1718,
+      "sha256": "255a77b30f62405f4658d71cac76acf343eb556c4d33a6cee78b94ae0c16e2a0",
+      "source": "_shared/speed-benchmark/water-test/benchmark_results_nvt_nh_20260716_164359/uma-m-omol__r3x3x4.json",
+      "source_sha256": "b8876f3a9139606dbc84cdea6feda8faea251b1575dd5c7c63bfc36807bd4ae5",
+      "changes": [
+        "Personal absolute-path prefixes and hostname redacted; model identifiers, numeric values, status, software versions and historical hashes unchanged."
+      ]
+    },
+    {
+      "path": "records/main/uma-m-omol__r2x4x5.json",
+      "bytes": 1716,
+      "sha256": "2f4ad9d30cdbd6fccd5d8672fc7bbc1715d54612ee4df736024e044bee0eb680",
+      "source": "_shared/speed-benchmark/water-test/benchmark_results_nvt_nh_20260716_164359/uma-m-omol__r2x4x5.json",
+      "source_sha256": "b3231fcaf4bf662333a4144fbae179932fc734aaf49341150400c76cf6345da4",
+      "changes": [
+        "Personal absolute-path prefixes and hostname redacted; model identifiers, numeric values, status, software versions and historical hashes unchanged."
+      ]
+    },
+    {
+      "path": "records/main/uma-m-omol__r3x4x4.json",
+      "bytes": 1719,
+      "sha256": "0066268139825b82b4a71088d6e690d7d9c4c8ea56df7dab09085833a0dfc6a3",
+      "source": "_shared/speed-benchmark/water-test/benchmark_results_nvt_nh_20260716_164359/uma-m-omol__r3x4x4.json",
+      "source_sha256": "1521a24bd811d991e4c56b3e6258e04b1e1418514def3d23a0e5e03153a9886f",
+      "changes": [
+        "Personal absolute-path prefixes and hostname redacted; model identifiers, numeric values, status, software versions and historical hashes unchanged."
+      ]
+    },
+    {
+      "path": "records/main/uma-m-omol__r3x3x6.json",
+      "bytes": 1722,
+      "sha256": "94b2c8b19a88eca0613aaccac4773e7721203575af2eca8ec0282ab6e6fc5e35",
+      "source": "_shared/speed-benchmark/water-test/benchmark_results_nvt_nh_20260716_164359/uma-m-omol__r3x3x6.json",
+      "source_sha256": "6e5ffebaf95ef69ef84427f36aee363aad0bbee27097a9b5f274eb405f46c864",
+      "changes": [
+        "Personal absolute-path prefixes and hostname redacted; model identifiers, numeric values, status, software versions and historical hashes unchanged."
+      ]
+    },
+    {
+      "path": "records/main/uma-m-omol__r3x4x5.json",
+      "bytes": 1711,
+      "sha256": "c10df3de3e2b1cada480cfd43ceaacaa342784226dad2c6cbbd886ded1899254",
+      "source": "_shared/speed-benchmark/water-test/benchmark_results_nvt_nh_20260716_164359/uma-m-omol__r3x4x5.json",
+      "source_sha256": "13579fbef56421ad298375db4bd32bbb500c4adb8220edb700f3c441b36e8ddd",
+      "changes": [
+        "Personal absolute-path prefixes and hostname redacted; model identifiers, numeric values, status, software versions and historical hashes unchanged."
+      ]
+    },
+    {
+      "path": "records/main/uma-m-omol__r4x4x4.json",
+      "bytes": 1719,
+      "sha256": "a983d42aba431b6762a4f0f9b6c8768ed28b57fd6770b2cc4a70174f8de9a819",
+      "source": "_shared/speed-benchmark/water-test/benchmark_results_nvt_nh_20260716_164359/uma-m-omol__r4x4x4.json",
+      "source_sha256": "7ae7135a7f3781b178f39fa56569b13affab1455918b9527909a4674edae6312",
+      "changes": [
+        "Personal absolute-path prefixes and hostname redacted; model identifiers, numeric values, status, software versions and historical hashes unchanged."
+      ]
+    },
+    {
+      "path": "records/main/uma-s-omol__r1x1x1.json",
+      "bytes": 1715,
+      "sha256": "1c4b4f953c72b915176ef070a52fc531df7660927d0a65122b07c00f5207378b",
+      "source": "_shared/speed-benchmark/water-test/benchmark_results_nvt_nh_20260716_164359/uma-s-omol__r1x1x1.json",
+      "source_sha256": "61df22bd44627e34628db56df1f6e3174103492c314abef0b1f369e14d94029d",
+      "changes": [
+        "Personal absolute-path prefixes and hostname redacted; model identifiers, numeric values, status, software versions and historical hashes unchanged."
+      ]
+    },
+    {
+      "path": "records/main/uma-s-omol__r1x2x3.json",
+      "bytes": 1719,
+      "sha256": "30e4bf1c5b9abfffaa024ab1f0c4835a2fe3b6f20af1cf11301ef068f8b2121c",
+      "source": "_shared/speed-benchmark/water-test/benchmark_results_nvt_nh_20260716_164359/uma-s-omol__r1x2x3.json",
+      "source_sha256": "d1af271de87c0acd98f2b95b382285953ec8d9535e2192974cafaf3ef1f23fd8",
+      "changes": [
+        "Personal absolute-path prefixes and hostname redacted; model identifiers, numeric values, status, software versions and historical hashes unchanged."
+      ]
+    },
+    {
+      "path": "records/main/uma-s-omol__r1x2x5.json",
+      "bytes": 1716,
+      "sha256": "3f95977f192054d3ae193553fc573d5dd5931ab9beef6b1e3f785a78790ad6f6",
+      "source": "_shared/speed-benchmark/water-test/benchmark_results_nvt_nh_20260716_164359/uma-s-omol__r1x2x5.json",
+      "source_sha256": "71e52e9109cbbd7c4a478da12501220aef3dd4150516ed35ba260a6f49fabc5d",
+      "changes": [
+        "Personal absolute-path prefixes and hostname redacted; model identifiers, numeric values, status, software versions and historical hashes unchanged."
+      ]
+    },
+    {
+      "path": "records/main/uma-s-omol__r2x2x4.json",
+      "bytes": 1713,
+      "sha256": "8e8bd86f63ae20c730f26376a3fca38318541d982c1e76aebe92da18121737ab",
+      "source": "_shared/speed-benchmark/water-test/benchmark_results_nvt_nh_20260716_164359/uma-s-omol__r2x2x4.json",
+      "source_sha256": "8eb527569387016bdec2c3d84e71367e69d1829d96f93a9bcd2584155036b4f6",
+      "changes": [
+        "Personal absolute-path prefixes and hostname redacted; model identifiers, numeric values, status, software versions and historical hashes unchanged."
+      ]
+    },
+    {
+      "path": "records/main/uma-s-omol__r2x2x5.json",
+      "bytes": 1715,
+      "sha256": "0262a5b645afa4a1e376670984d5f3e1532c5d0bdf8b1e00d0993f57db534f0c",
+      "source": "_shared/speed-benchmark/water-test/benchmark_results_nvt_nh_20260716_164359/uma-s-omol__r2x2x5.json",
+      "source_sha256": "20f8af0250462fd168c5d27d7658f6b7de08901036c4eb0dcbbba63039def9e9",
+      "changes": [
+        "Personal absolute-path prefixes and hostname redacted; model identifiers, numeric values, status, software versions and historical hashes unchanged."
+      ]
+    },
+    {
+      "path": "records/main/uma-s-omol__r3x3x3.json",
+      "bytes": 1716,
+      "sha256": "860307c3bdff409cfdccd935c03236284e2cd7089087d57097a48b7a27826f14",
+      "source": "_shared/speed-benchmark/water-test/benchmark_results_nvt_nh_20260716_164359/uma-s-omol__r3x3x3.json",
+      "source_sha256": "1132f5e40399620c51432f78190158b157369c33b87c2a8d54a8556063096633",
+      "changes": [
+        "Personal absolute-path prefixes and hostname redacted; model identifiers, numeric values, status, software versions and historical hashes unchanged."
+      ]
+    },
+    {
+      "path": "records/main/uma-s-omol__r2x4x4.json",
+      "bytes": 1717,
+      "sha256": "374e8b576e429d86fb3d719799be13531770b013c8cf6f423da75be559a118ab",
+      "source": "_shared/speed-benchmark/water-test/benchmark_results_nvt_nh_20260716_164359/uma-s-omol__r2x4x4.json",
+      "source_sha256": "81fb31ee88c1fa516a52db8782b5023fbfd9f508dcb64f082cea28c9c36a72b4",
+      "changes": [
+        "Personal absolute-path prefixes and hostname redacted; model identifiers, numeric values, status, software versions and historical hashes unchanged."
+      ]
+    },
+    {
+      "path": "records/main/uma-s-omol__r3x3x4.json",
+      "bytes": 1718,
+      "sha256": "5dba423db30b92fe50972917140d334f36bf80026f16945d190cdcf7365e41dc",
+      "source": "_shared/speed-benchmark/water-test/benchmark_results_nvt_nh_20260716_164359/uma-s-omol__r3x3x4.json",
+      "source_sha256": "871f1541a968d02dfe2afb17a47f9d6fca1fe243511b32f81c8dfdeb813fe163",
+      "changes": [
+        "Personal absolute-path prefixes and hostname redacted; model identifiers, numeric values, status, software versions and historical hashes unchanged."
+      ]
+    },
+    {
+      "path": "records/main/uma-s-omol__r2x4x5.json",
+      "bytes": 1715,
+      "sha256": "fd91c350222a6d6fe00b6e95a2e24a6b106ce8ee9df2d4e897f6e7c6849893e6",
+      "source": "_shared/speed-benchmark/water-test/benchmark_results_nvt_nh_20260716_164359/uma-s-omol__r2x4x5.json",
+      "source_sha256": "79d0b328fea18c55e635a8c2aac92bde1321b8e1b21638910d083538db93c8ff",
+      "changes": [
+        "Personal absolute-path prefixes and hostname redacted; model identifiers, numeric values, status, software versions and historical hashes unchanged."
+      ]
+    },
+    {
+      "path": "records/main/uma-s-omol__r3x4x4.json",
+      "bytes": 1717,
+      "sha256": "a627bfd1194628daf993053f1b3617143a589da092d5915927c4043bd519ada1",
+      "source": "_shared/speed-benchmark/water-test/benchmark_results_nvt_nh_20260716_164359/uma-s-omol__r3x4x4.json",
+      "source_sha256": "652860a831d2463b2b1714d868ec6ea73c59c0c968ab96749494f6ad0846205b",
+      "changes": [
+        "Personal absolute-path prefixes and hostname redacted; model identifiers, numeric values, status, software versions and historical hashes unchanged."
+      ]
+    },
+    {
+      "path": "records/main/uma-s-omol__r3x3x6.json",
+      "bytes": 1718,
+      "sha256": "4b6cbcd721cf0353123fa50cc4180ebe52d42e4338373972e8035fb05a6b5c6a",
+      "source": "_shared/speed-benchmark/water-test/benchmark_results_nvt_nh_20260716_164359/uma-s-omol__r3x3x6.json",
+      "source_sha256": "ec024fea570853de83a0c5c2db79cac4d1ddad4668796a32ade2b646ca1093a9",
+      "changes": [
+        "Personal absolute-path prefixes and hostname redacted; model identifiers, numeric values, status, software versions and historical hashes unchanged."
+      ]
+    },
+    {
+      "path": "records/main/uma-s-omol__r3x4x5.json",
+      "bytes": 1720,
+      "sha256": "44af465bc93de271759514401c0cdc00c7c1ded584ed589ce275e3c342877ba5",
+      "source": "_shared/speed-benchmark/water-test/benchmark_results_nvt_nh_20260716_164359/uma-s-omol__r3x4x5.json",
+      "source_sha256": "d779d1c998d6725fe5418c60b7ea72d13660c61f906e639dfe672aa4006cd379",
+      "changes": [
+        "Personal absolute-path prefixes and hostname redacted; model identifiers, numeric values, status, software versions and historical hashes unchanged."
+      ]
+    },
+    {
+      "path": "records/main/uma-s-omol__r4x4x4.json",
+      "bytes": 1722,
+      "sha256": "b0fa84d7e24c4796b4fc5b648134a2fda6dcec029148fcc94d06049ce89db316",
+      "source": "_shared/speed-benchmark/water-test/benchmark_results_nvt_nh_20260716_164359/uma-s-omol__r4x4x4.json",
+      "source_sha256": "af5fb7333cd916e5fcdc9ff35e83b9a4f5b5df1330c76ea6a45441b956f3c6b5",
+      "changes": [
+        "Personal absolute-path prefixes and hostname redacted; model identifiers, numeric values, status, software versions and historical hashes unchanged."
+      ]
+    },
+    {
+      "path": "records/main/upet-pet-omatpes-l-conservative__r1x1x1.json",
+      "bytes": 1772,
+      "sha256": "709b4132d9fed13b94308497c74f3abe00c0dcf8e55955a04271db901dd03fec",
+      "source": "_shared/speed-benchmark/water-test/benchmark_results_nvt_nh_20260716_164359/upet-pet-omatpes-l-conservative__r1x1x1.json",
+      "source_sha256": "ae83d6716d602ed95c057a9335e0139a81202f6759036e8ea57255e97235511d",
+      "changes": [
+        "Personal absolute-path prefixes and hostname redacted; model identifiers, numeric values, status, software versions and historical hashes unchanged."
+      ]
+    },
+    {
+      "path": "records/main/upet-pet-omatpes-l-conservative__r1x2x3.json",
+      "bytes": 1774,
+      "sha256": "d3f3ed48b2f36468836e0873acd23dd33a607186e8a29792d06c72709dcd9391",
+      "source": "_shared/speed-benchmark/water-test/benchmark_results_nvt_nh_20260716_164359/upet-pet-omatpes-l-conservative__r1x2x3.json",
+      "source_sha256": "ad3a9e7b7bc42405078a9c5821c0c731978a11212571784eb2b52e4fe9e894d4",
+      "changes": [
+        "Personal absolute-path prefixes and hostname redacted; model identifiers, numeric values, status, software versions and historical hashes unchanged."
+      ]
+    },
+    {
+      "path": "records/main/upet-pet-omatpes-l-conservative__r1x2x5.json",
+      "bytes": 1772,
+      "sha256": "3d7fc9335a32607f382460903b5d25e4dc9379d3c48b01061612c9a0ec1ac64f",
+      "source": "_shared/speed-benchmark/water-test/benchmark_results_nvt_nh_20260716_164359/upet-pet-omatpes-l-conservative__r1x2x5.json",
+      "source_sha256": "ddeeca53408f04845ecd401982b118031b1d5ce232c0ee9e4e3ac992a80ac09d",
+      "changes": [
+        "Personal absolute-path prefixes and hostname redacted; model identifiers, numeric values, status, software versions and historical hashes unchanged."
+      ]
+    },
+    {
+      "path": "records/main/upet-pet-omatpes-l-conservative__r2x2x4.json",
+      "bytes": 1771,
+      "sha256": "c3f76381279f539b1b9d384c6091cba298d44337c3c0cf0c9a5352f6d006f858",
+      "source": "_shared/speed-benchmark/water-test/benchmark_results_nvt_nh_20260716_164359/upet-pet-omatpes-l-conservative__r2x2x4.json",
+      "source_sha256": "935e8caf5d7ea56c2901bf120be5c1c08df1bdce14d2cd5187526e00812445ed",
+      "changes": [
+        "Personal absolute-path prefixes and hostname redacted; model identifiers, numeric values, status, software versions and historical hashes unchanged."
+      ]
+    },
+    {
+      "path": "records/main/upet-pet-omatpes-l-conservative__r2x2x5.json",
+      "bytes": 1770,
+      "sha256": "4e341ea6910149bb15d7d7b263db56c8a544420cacf6d211c4d16c48473192c5",
+      "source": "_shared/speed-benchmark/water-test/benchmark_results_nvt_nh_20260716_164359/upet-pet-omatpes-l-conservative__r2x2x5.json",
+      "source_sha256": "32e0e6aed41b6c4dec32b646e20a060e86b657b66a6ec3b07ff1a5d8b3a21b35",
+      "changes": [
+        "Personal absolute-path prefixes and hostname redacted; model identifiers, numeric values, status, software versions and historical hashes unchanged."
+      ]
+    },
+    {
+      "path": "records/main/upet-pet-omatpes-l-conservative__r3x3x3.json",
+      "bytes": 1771,
+      "sha256": "fbd9386fb2a0e363491bd4f2e8b10d9cc1fb68b189b91226f8524cc44ead4ba7",
+      "source": "_shared/speed-benchmark/water-test/benchmark_results_nvt_nh_20260716_164359/upet-pet-omatpes-l-conservative__r3x3x3.json",
+      "source_sha256": "db7bd98a4d39fb6561e02592139032bccafa3c9e9c904a9a1dd1adfdc4680f65",
+      "changes": [
+        "Personal absolute-path prefixes and hostname redacted; model identifiers, numeric values, status, software versions and historical hashes unchanged."
+      ]
+    },
+    {
+      "path": "records/main/upet-pet-omatpes-l-conservative__r2x4x4.json",
+      "bytes": 1777,
+      "sha256": "39d2a2bdf31d56c54d46dc9b5322be6b13000d3fbc053bd4d98ac406b138c739",
+      "source": "_shared/speed-benchmark/water-test/benchmark_results_nvt_nh_20260716_164359/upet-pet-omatpes-l-conservative__r2x4x4.json",
+      "source_sha256": "5b213ca7192c14bbbbebcbf9294381df7debb884bf107eda8abdd306e8089a8c",
+      "changes": [
+        "Personal absolute-path prefixes and hostname redacted; model identifiers, numeric values, status, software versions and historical hashes unchanged."
+      ]
+    },
+    {
+      "path": "records/main/upet-pet-omatpes-l-conservative__r3x3x4.json",
+      "bytes": 1770,
+      "sha256": "c56a50fb49a1524eb42b15eaa99b0a5c6306bbf52e7e7a115ce3ac86d5c60e86",
+      "source": "_shared/speed-benchmark/water-test/benchmark_results_nvt_nh_20260716_164359/upet-pet-omatpes-l-conservative__r3x3x4.json",
+      "source_sha256": "fd488b8eb9edbec8c00a209376030688eb313fad67408464c8284a19a0c714c4",
+      "changes": [
+        "Personal absolute-path prefixes and hostname redacted; model identifiers, numeric values, status, software versions and historical hashes unchanged."
+      ]
+    },
+    {
+      "path": "records/main/upet-pet-omatpes-l-conservative__r2x4x5.json",
+      "bytes": 1776,
+      "sha256": "a4f725990b26f2ced1708aaf3fabf411cb9db3086919f31a1df03c369812981d",
+      "source": "_shared/speed-benchmark/water-test/benchmark_results_nvt_nh_20260716_164359/upet-pet-omatpes-l-conservative__r2x4x5.json",
+      "source_sha256": "2a5682bdf7bdb013e85171dd9a0ce444fdfdfee78f96eb38aae4a3129579f6db",
+      "changes": [
+        "Personal absolute-path prefixes and hostname redacted; model identifiers, numeric values, status, software versions and historical hashes unchanged."
+      ]
+    },
+    {
+      "path": "records/main/upet-pet-omatpes-l-conservative__r3x4x4.json",
+      "bytes": 1778,
+      "sha256": "de3813dd01fd12ad9266335315431b10b4faf3b4b0a50bc95bee563d8b2c7af6",
+      "source": "_shared/speed-benchmark/water-test/benchmark_results_nvt_nh_20260716_164359/upet-pet-omatpes-l-conservative__r3x4x4.json",
+      "source_sha256": "a45cf550e40c2d9ed9a6c49d60592aa591d5e6f2b3fc2b15ea34695e44eb8791",
+      "changes": [
+        "Personal absolute-path prefixes and hostname redacted; model identifiers, numeric values, status, software versions and historical hashes unchanged."
+      ]
+    },
+    {
+      "path": "records/main/upet-pet-omatpes-l-conservative__r3x3x6.json",
+      "bytes": 1779,
+      "sha256": "6f56ce354c07668e43ebf1ffc89c652f0a1aa9c82fd342c2fcf4e6cadf15c98e",
+      "source": "_shared/speed-benchmark/water-test/benchmark_results_nvt_nh_20260716_164359/upet-pet-omatpes-l-conservative__r3x3x6.json",
+      "source_sha256": "2b78022c5986991b8734a8245773545035a9d1edec5315c9b2af2c4c48d1ff5d",
+      "changes": [
+        "Personal absolute-path prefixes and hostname redacted; model identifiers, numeric values, status, software versions and historical hashes unchanged."
+      ]
+    },
+    {
+      "path": "records/main/upet-pet-omatpes-l-conservative__r3x4x5.json",
+      "bytes": 1774,
+      "sha256": "509abf83b54d31f32095aeafbcee5b4ea9bafc22c0e958a35207f7c4e55a3a45",
+      "source": "_shared/speed-benchmark/water-test/benchmark_results_nvt_nh_20260716_164359/upet-pet-omatpes-l-conservative__r3x4x5.json",
+      "source_sha256": "2a065d70fb8c805182231670ff009d62961ab07444e0c0d8536abd389715d506",
+      "changes": [
+        "Personal absolute-path prefixes and hostname redacted; model identifiers, numeric values, status, software versions and historical hashes unchanged."
+      ]
+    },
+    {
+      "path": "records/main/upet-pet-omatpes-l-conservative__r4x4x4.json",
+      "bytes": 7141,
+      "sha256": "03947896b9cca4e9d52b124d76f1be23e32c4d9be13f135c59d5475da4685c1a",
+      "source": "_shared/speed-benchmark/water-test/benchmark_results_nvt_nh_20260716_164359/upet-pet-omatpes-l-conservative__r4x4x4.json",
+      "source_sha256": "a9194cc70f017558f11d72357995c3aa8f51966c319d4b3a0b8eb570d5d9df68",
+      "changes": [
+        "Personal absolute-path prefixes and hostname redacted; model identifiers, numeric values, status, software versions and historical hashes unchanged."
+      ]
+    },
+    {
+      "path": "evidence_logs/mace-mh-1__r1x1x1.log",
+      "bytes": 3182,
+      "sha256": "74bffb15851b59b6c20bfdeb10482a9c7530ecc355403e811db50872d9aa829d",
+      "source": "_shared/speed-benchmark/water-test/benchmark_results_nvt_nh_20260716_164359/logs/mace-mh-1__r1x1x1.log",
+      "source_sha256": "9a3513f69ad7ce7b866d8d5e0759dec47c6d272a4da2792749c1d04ccce5dbbc",
+      "changes": [
+        "Personal absolute-path prefixes and hostname redacted; remaining log text unchanged."
+      ]
+    },
+    {
+      "path": "evidence_logs/maceles-orbmol-cons-fp32__r4x4x4.log",
+      "bytes": 3273,
+      "sha256": "1e14f1b94dfe949e871bbef650537b485573d570d194d33dfadf8e0f822056ce",
+      "source": "_shared/speed-benchmark/water-test/benchmark_results_maceles_fp64_fp32_20260721_215708/logs/maceles-orbmol-cons-fp32__r4x4x4.log",
+      "source_sha256": "a193191c848f3ba7348086b7236862a464d136b98fed498bdfda1dc76dc528f8",
+      "changes": [
+        "Personal absolute-path prefixes and hostname redacted; remaining log text unchanged."
+      ]
+    },
+    {
+      "path": "benchmark/benchmark_md.py",
+      "bytes": 18928,
+      "sha256": "4351d8fb7d0b965738629327c2ab5b1b51c6fdc6df7fea97aa624a1712826afa",
+      "source": "_shared/speed-benchmark/water-test/benchmark_md.py",
+      "source_sha256": "f14e1649d89f849aee2620631376e953eb280c2a54565c245c1dfd69bebc6d63",
+      "changes": [
+        "Only checkpoint/dependency path definitions changed to repository-relative locations; numerical benchmark code unchanged."
+      ]
+    },
+    {
+      "path": "benchmark/run_one_h200.sh",
+      "bytes": 2322,
+      "sha256": "f5bb6dbe5bd572ba0f63a5548cba1b53905dfd8931954da7f7437c830f52c583",
+      "source": "_shared/speed-benchmark/water-test/run_one_h200.sh",
+      "source_sha256": "5e659a9ba77d8c4f7ce1194dc02c5da1a4791daf6586657931f75d31001b10ba",
+      "changes": [
+        "Historical environment-interpreter paths replaced by BENCHMARK_PYTHON (default python3); benchmark arguments unchanged."
+      ]
+    },
+    {
+      "path": "benchmark/ini.xyz",
+      "bytes": 30359,
+      "sha256": "8f1e134576383a2b9b890bf616a1059db45096828cfdbaf5b550c062fe3aaa5b",
+      "source": "_shared/speed-benchmark/water-test/ini.xyz",
+      "source_sha256": "8f1e134576383a2b9b890bf616a1059db45096828cfdbaf5b550c062fe3aaa5b",
+      "changes": []
+    },
+    {
+      "path": "benchmark/gemnet_compatibility/graph_patch.py",
+      "bytes": 4486,
+      "sha256": "62b909a1d1d59faa166f56099c7f9d4d0f0cb18fcfa7e35520b5b1dfec6aee6a",
+      "source": "tio2-water/gemnet-oc22/md-1422atoms-foundation/graph_patch.py",
+      "source_sha256": "62b909a1d1d59faa166f56099c7f9d4d0f0cb18fcfa7e35520b5b1dfec6aee6a",
+      "changes": []
+    },
+    {
+      "path": "reported_protocol.json",
+      "bytes": 12486,
+      "sha256": "5125407bd156cca42f6c86ab4fc8836cf04d8fc7ff3d0c76951d3f9afdb471e3"
+    }
+  ]
+}

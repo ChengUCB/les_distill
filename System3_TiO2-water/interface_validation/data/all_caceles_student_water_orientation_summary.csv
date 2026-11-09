@@ -1,0 +1,12 @@
+group_order,model_order,group_code,group_label,model_key,model_label,source_trajectory,frames_analyzed,keep_fraction,bin_width_A,mean_dissociation_fraction,mean_cos_theta_6_10A,molecule_samples_6_10A
+1,1,PBE,PBE,mace_mp0,MACE-MP-0(L),/Volumes/Extreme Pro/TiO2_water/MD_simulations/MDtraj_all_students/MACE-MP0a_L/md_out-2025-12.xyz,300,0.75,0.20,0.00686869,0.23397466,85954
+1,2,PBE,PBE,mace_mh_omat,MACE-MH-1(Omat),/Volumes/Extreme Pro/TiO2_water/MD_simulations/MDtraj_all_students/MACE-MH-omat/md_out-2025-12.xyz,300,0.75,0.20,0.00724747,0.04401238,85656
+1,3,PBE,PBE,gemnet_oc22,GemNet-OC22,/Volumes/Extreme Pro/TiO2_water/MD_simulations/MDtraj_all_students/GemNet-OC22/md_out.xyz,300,0.75,0.20,0.00754489,-0.20042645,84921
+2,4,RPBE,RPBE(-D3),uma_m_oc20,UMA-M(OC20),/Volumes/Extreme Pro/TiO2_water/MD_simulations/MDtraj_all_students/UMA-M-OC20/md_out-2025-12.xyz,300,0.75,0.20,0.00757538,0.11222803,86584
+2,5,RPBE,RPBE(-D3),esen_sm_con,eSEN-OC25-sm$^{\mathbf{\dagger}}$,/Volumes/Extreme Pro/TiO2_water/MD_simulations/MDtraj_all_students/esen-sm-con/md_out-2025-12.xyz,300,0.75,0.20,0.00675645,0.00540315,84557
+2,6,RPBE,RPBE(-D3),esen_direct,eSEN-OC25-md$^{\mathbf{\dagger}}$,/Volumes/Extreme Pro/TiO2_water/MD_simulations/MDtraj_all_students/esen-direct/md_out-2025-12.xyz.zst,285,0.75,0.20,0.00692746,0.00171209,80779
+3,7,SCAN,meta-GGA,caceles_scan_dft,CACELES-SCAN,/Volumes/Extreme Pro/TiO2_water/MD_simulations/MDtraj_all_students/CACELES-SCAN-DFT/md_out.xyz,300,0.75,0.20,0.00871212,0.00082157,84701
+3,8,SCAN,meta-GGA,mace_mp_ft10,MACE-MP-0(L) $\rightarrow$ 10% SCAN dataset,/Volumes/Extreme Pro/TiO2_water/MD_simulations/MDtraj_all_students/MACE-MP-finetuning-10/md_out_finetuning_10.xyz,300,0.75,0.20,0.00644080,0.01517203,84544
+3,9,SCAN,meta-GGA,mace_mp_ft50,MACE-MP-0(L) $\rightarrow$ 50% SCAN dataset,/Volumes/Extreme Pro/TiO2_water/MD_simulations/MDtraj_all_students/MACE-MP-finetuning-50/md_out_finetuning_50.xyz,300,0.75,0.20,0.00724888,0.00496300,85734
+3,10,SCAN,meta-GGA,mace_h1_r2scan,MACE-MH-1(r$^2$SCAN),/Volumes/Extreme Pro/TiO2_water/MD_simulations/MDtraj_all_students/MACE-H1-r2scan/md_out.xyz,375,0.75,0.20,0.00896633,0.03429633,107280
+3,11,SCAN,meta-GGA,pet_omatpes,PET-OMATPES (r$^2$SCAN),/Volumes/Extreme Pro/TiO2_water/MD_simulations/MDtraj_all_students/PET-omatpes/md_out.xyz,375,0.75,0.20,0.00694725,0.01508503,107255

@@ -1,0 +1,76 @@
+[historical-path]/_wigner.py:10: UserWarning: Environment variable TORCH_FORCE_NO_WEIGHTS_ONLY_LOAD detected, since the`weights_only` argument was not explicitly passed to `torch.load`, forcing weights_only=False.
+  _Jd, _W3j_flat, _W3j_indices = torch.load(os.path.join(os.path.dirname(__file__), 'constants.pt'))
+[historical-path]/mace.py:197: UserWarning: Environment variable TORCH_FORCE_NO_WEIGHTS_ONLY_LOAD detected, since the`weights_only` argument was not explicitly passed to `torch.load`, forcing weights_only=False.
+  torch.load(f=model_path, map_location=device)
+[historical-path]/_serialization.py:176: DeprecationWarning: `torch.jit.load` is deprecated. Please switch to `torch.export`.
+  warnings.warn(
+[historical-path]/_serialization.py:176: DeprecationWarning: `torch.jit.load` is deprecated. Please switch to `torch.export`.
+  warnings.warn(
+[historical-path]/_serialization.py:176: DeprecationWarning: `torch.jit.load` is deprecated. Please switch to `torch.export`.
+  warnings.warn(
+[historical-path]/_script.py:1480: DeprecationWarning: `torch.jit.script` is deprecated. Please switch to `torch.compile` or `torch.export`.
+  warnings.warn(
+Using head Default out of ['Default']
+Default dtype float32 does not match model dtype float64, converting models to float32.
+[historical-path]/benchmark_md.py:325: FutureWarning: NPT thermostat has been moved/renamed to ase.md.melchionna.MelchionnaNPT. Please use this class instead (or a newer NPT thermostat!)
+  dyn = NPT(
+{
+  "ase_version": "3.27.0",
+  "atom_steps_per_second": 31487.885178895307,
+  "atoms": 12288,
+  "base_atoms": 192,
+  "benchmark_script_sha256": "f14e1649d89f849aee2620631376e953eb280c2a54565c245c1dfd69bebc6d63",
+  "cell_lengths_angstrom": [
+    49.716,
+    49.716,
+    49.716
+  ],
+  "cuda_peak_allocated_gib": 15.226232051849365,
+  "cuda_peak_reserved_gib": 41.205078125,
+  "cuda_version": "12.8",
+  "ensemble": "NVT-NoseHoover",
+  "final_temperature_k": 300.8673446341383,
+  "frame": -1,
+  "gpu_memory_gib": 139.80072021484375,
+  "gpu_name": "NVIDIA H200",
+  "hostname": "[redacted-hostname]",
+  "initial_force_seconds": 0.45190685199986547,
+  "input": "[historical-path]/ini.xyz",
+  "input_sha256": "8f1e134576383a2b9b890bf616a1059db45096828cfdbaf5b550c062fe3aaa5b",
+  "md_seconds": 39.024532547000035,
+  "md_steps": 100,
+  "milliseconds_per_step": 390.2453254700004,
+  "mkl_num_threads": "14",
+  "model": "maceles-orbmol-cons-fp32",
+  "model_load_seconds": 3.5850657519999913,
+  "model_source": "[historical-path]/H2O-DFT-orbmol_cons_stagetwo.model",
+  "ns_per_day": 0.22139919266410762,
+  "omp_num_threads": "14",
+  "openblas_num_threads": "14",
+  "package_versions": {
+    "ase": "3.27.0",
+    "mace-torch": "0.3.14",
+    "torch": "2.10.0"
+  },
+  "pid": 28157,
+  "precision": "float32",
+  "precision_policy": "explicit-fp64-fp32-variants",
+  "protocol_version": "h200-md-v4",
+  "python_version": "3.12.12",
+  "replicate": [
+    4,
+    4,
+    4
+  ],
+  "seed": 20260716,
+  "status": "ok",
+  "steps_per_second": 2.562490655834579,
+  "temperature_k": 300.0,
+  "timed_force_evaluations": 100,
+  "timestep_fs": 1.0,
+  "torch_version": "2.10.0+cu128",
+  "ttime_fs": 20.0,
+  "warmup_initial_force_seconds": 0.863030747999801,
+  "warmup_seconds": 3.9662443809997967,
+  "warmup_steps": 5
+}

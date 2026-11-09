@@ -1,3 +1,6 @@
 *.xyz filter=lfs diff=lfs merge=lfs -text
 System3_TiO2-water/teacher_label_comparison/data/cache_*.npz filter=lfs diff=lfs merge=lfs -text
 System3_TiO2-water/teacher_label_comparison/reference/*.pdf binary
+
+# Keep the small S5 input structure directly downloadable without LFS.
+System1_water/computational_benchmark/benchmark/ini.xyz -filter !diff !merge -text

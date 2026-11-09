@@ -1,0 +1,38 @@
+{
+  "selected_case_records": 169,
+  "status_counts": {
+    "ok": 139,
+    "failed": 5,
+    "skipped_after_oom": 25
+  },
+  "csv_to_case_numeric_comparisons": 1251,
+  "numeric_mismatches": 0,
+  "timing_formula_checks": 139,
+  "original_record_numeric_leaves_preserved": 4340,
+  "model_identifiers_and_statuses_preserved": true,
+  "recovered_driver_numerical_code_unchanged": true,
+  "original_final_plot_script_preserved": true,
+  "original_combined_csv_sha256": "38fedd4c21911e4f71a2ebc2d65f070f1810c8b37f1f1df91fd511aa34cbbe5d",
+  "md_or_gpu_rerun_performed": false,
+  "plot_reproduction": {
+    "matplotlib": "3.10.3",
+    "pandas": "2.3.0",
+    "numpy": "2.2.6",
+    "reference": "Authorized local OMol-label-corrected final plot",
+    "png_shape": [
+      2730,
+      2480,
+      4
+    ],
+    "pixels_identical": true,
+    "different_pixels": 0,
+    "pdf_identical_after_ignoring_creation_date": true,
+    "canvas_width_mm": 105.0,
+    "original_script_pre_edit_hash_restored_by_reversing_only_MH_label": true
+  },
+  "benchmark_shell_syntax_valid": true,
+  "privacy_scan": {
+    "personal_absolute_paths_found": 0,
+    "credential_patterns_found": 0
+  }
+}

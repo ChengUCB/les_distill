@@ -1,2 +1,2 @@
-figure,file,status,description,missing_for_reproduction
-S5,figures/MDspeed.pdf,final_figure_only,MD wall time per step versus number of atoms for the UMA-M(OMol)-derived MACELES student and 12 foundation models,Per-model/per-size timing and GPU memory logs; benchmark driver; exact model and software versions; numerical plotting inputs and final plotting script
+figure,file,status,description,data,code,limitations
+S5,figures/MDspeed.pdf,source_and_selected_measurements_archived,Wall time per MD step for FP32 Orb-v3-OMol-derived MACELES and 12 foundation models,speed_tests_combined.csv; records/,plot_inference_time.py,Exact older foundation/Orb driver snapshot unavailable; no GPU rerun performed

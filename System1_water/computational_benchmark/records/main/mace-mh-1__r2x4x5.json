@@ -1,0 +1,13 @@
+{
+  "atoms": 7680,
+  "base_atoms": 192,
+  "md_steps": 100,
+  "model": "mace-mh-1",
+  "reason": "A smaller system size for this model exhausted GPU memory.",
+  "replicate": [
+    2,
+    4,
+    5
+  ],
+  "status": "skipped_after_oom"
+}

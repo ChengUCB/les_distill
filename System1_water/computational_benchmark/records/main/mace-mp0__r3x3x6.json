@@ -1,0 +1,13 @@
+{
+  "atoms": 10368,
+  "base_atoms": 192,
+  "md_steps": 100,
+  "model": "mace-mp0",
+  "reason": "A smaller system size for this model exhausted GPU memory.",
+  "replicate": [
+    3,
+    3,
+    6
+  ],
+  "status": "skipped_after_oom"
+}

@@ -1,0 +1,161 @@
+{
+  "recovered_workspace": "MISC/Rev_distill",
+  "files": [
+    {
+      "file": "data/all_caceles_student_water_orientation.csv",
+      "original_relative_path": "Cos-theta/all_caceles_student_water_orientation.csv",
+      "sha256": "34fcd182705850572ef7a6eab313eb7b44fba721c2d568e2525ece71a47e0cd3",
+      "bytes": 182506,
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "file": "data/all_caceles_student_water_orientation_summary.csv",
+      "original_relative_path": "Cos-theta/all_caceles_student_water_orientation_summary.csv",
+      "sha256": "c1f2074e89c55d3a4437b9c2064d9683615e2fb7da349c55d97174d9266a0348",
+      "bytes": 2358,
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "file": "data/foundation_mid_vs_caceles_large_density.dat",
+      "original_relative_path": "Direct-MD/foundation_mid_vs_caceles_large_density.dat",
+      "sha256": "e08f5ec5bb138cc74b26f32961fa16ebb4cba6a046ff527380cdcfb0d430304a",
+      "bytes": 32394,
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "file": "data/foundation_mid_vs_caceles_large_cos_theta.dat",
+      "original_relative_path": "Cos-theta/foundation_mid_vs_caceles_large_cos_theta.dat",
+      "sha256": "a3c5a26ae9558f9f7748a99400f5094ae977e76fd3e45d0e9c8fb5b9d680230d",
+      "bytes": 16343,
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "file": "data/old_new_large_water_density.dat",
+      "original_relative_path": "Sensitivity_MDduration/old_new_large_water_density.dat",
+      "sha256": "0a9a5ae6336ed31b92e93be7334a6a88ea46573e4d97dfb76ca35307bb70923e",
+      "bytes": 32300,
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "file": "data/caceles_mid_vs_large_density.dat",
+      "original_relative_path": "Direct-MD/caceles_mid_vs_large_density.dat",
+      "sha256": "0c3361adcc816e25d8ec937e2b5aa0dbbd37bd7f65f03c6c3ee35db4ff16b350",
+      "bytes": 32374,
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "file": "data/caceles_mid_vs_large_cos_theta.dat",
+      "original_relative_path": "Cos-theta/caceles_mid_vs_large_cos_theta.dat",
+      "sha256": "d3b2f6d1404bdf28e7a2987e3f7f9b546d10f22681eeac3e559dbf1b9e025f32",
+      "bytes": 16314,
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "file": "analysis_source/Cos-theta/plot_all_caceles_student_orientation.py",
+      "original_relative_path": "Cos-theta/plot_all_caceles_student_orientation.py",
+      "sha256": "a40fe282a1b779b48a126439fb956e1b6766170cdea252162c40be4d377ab129",
+      "bytes": 24572,
+      "transformation": "byte-for-byte copy; archival analysis code, excluded from redraw execution"
+    },
+    {
+      "file": "analysis_source/Direct-MD/plot_foundation_mid_vs_caceles_large_density.py",
+      "original_relative_path": "Direct-MD/plot_foundation_mid_vs_caceles_large_density.py",
+      "sha256": "740d9afc222eaed6dc9a91d972ff173e676252a790cdf880c49d70b7159b162a",
+      "bytes": 8912,
+      "transformation": "byte-for-byte copy; archival analysis code, excluded from redraw execution"
+    },
+    {
+      "file": "analysis_source/Cos-theta/plot_foundation_mid_vs_caceles_large_cos_theta.py",
+      "original_relative_path": "Cos-theta/plot_foundation_mid_vs_caceles_large_cos_theta.py",
+      "sha256": "ec539ea7b9c951f18745d41f156e2f0db862e2e50da4fedd95bf9336e3facd9c",
+      "bytes": 10547,
+      "transformation": "byte-for-byte copy; archival analysis code, excluded from redraw execution"
+    },
+    {
+      "file": "analysis_source/Direct-MD/plot_caceles_mid_vs_large_density.py",
+      "original_relative_path": "Direct-MD/plot_caceles_mid_vs_large_density.py",
+      "sha256": "aea7b0a89aaeda479ffdf179b4850557b2d4156c86af837cf3ca9ddc8c22a81e",
+      "bytes": 6816,
+      "transformation": "byte-for-byte copy; archival analysis code, excluded from redraw execution"
+    },
+    {
+      "file": "analysis_source/Cos-theta/plot_caceles_mid_vs_large_cos_theta.py",
+      "original_relative_path": "Cos-theta/plot_caceles_mid_vs_large_cos_theta.py",
+      "sha256": "19cb512f560d23b37b389e3f843552097c00c24ac4e6a96ff67f7fd01ed35f07",
+      "bytes": 6378,
+      "transformation": "byte-for-byte copy; archival analysis code, excluded from redraw execution"
+    },
+    {
+      "file": "analysis_source/Sensitivity_MDduration/plot_old_new_large_water_density.py",
+      "original_relative_path": "Sensitivity_MDduration/plot_old_new_large_water_density.py",
+      "sha256": "1e6a67ecff9fa3882c9432675ec56a616e4de60cb978a9d99866d53297e01fc1",
+      "bytes": 7377,
+      "transformation": "byte-for-byte copy; archival analysis code, excluded from redraw execution"
+    },
+    {
+      "file": "analysis_source/small-Direct_MD_foundation/Water-dipole-analyse/analyze_water_dipole.py",
+      "original_relative_path": "small-Direct_MD_foundation/Water-dipole-analyse/analyze_water_dipole.py",
+      "sha256": "eb286637bdb7050d777e60dfc960677bf609c0bae41a51b7002ec8f87fe49f77",
+      "bytes": 18714,
+      "transformation": "byte-for-byte copy; archival analysis code, excluded from redraw execution"
+    },
+    {
+      "file": "analysis_source/small-Direct_MD_foundation/Water-dipole-analyse/compare_new_previous_large_caceles.py",
+      "original_relative_path": "small-Direct_MD_foundation/Water-dipole-analyse/compare_new_previous_large_caceles.py",
+      "sha256": "53094d32caa04d3c54517bd072f603cd9ae70db3adce5594f15e05c3ad2147fb",
+      "bytes": 24980,
+      "transformation": "byte-for-byte copy; archival analysis code, excluded from redraw execution"
+    },
+    {
+      "file": "analysis_source/small-Direct_MD_foundation/water_density_analysis/analyze_dft_system_size_normalization.py",
+      "original_relative_path": "small-Direct_MD_foundation/water_density_analysis/analyze_dft_system_size_normalization.py",
+      "sha256": "a7f126bae0122efb564c66b33bb25890a91d17216b63bb9ab6aa13669e9c89c1",
+      "bytes": 30288,
+      "transformation": "byte-for-byte copy; archival analysis code, excluded from redraw execution"
+    },
+    {
+      "file": "analysis_source/small-Direct_MD_foundation/tools/trajectory_io.py",
+      "original_relative_path": "small-Direct_MD_foundation/tools/trajectory_io.py",
+      "sha256": "9547f8c5cbd36eb9a044b5a2f2ae0361db7526e01bacb987c99fb4a25680d8b0",
+      "bytes": 2995,
+      "transformation": "byte-for-byte copy; archival analysis code, excluded from redraw execution"
+    }
+  ],
+  "redraw_scripts": [
+    {
+      "script": "scripts/plot_fig5.py",
+      "original_relative_path": "Cos-theta/plot_all_caceles_student_orientation.py",
+      "original_sha256": "a40fe282a1b779b48a126439fb956e1b6766170cdea252162c40be4d377ab129",
+      "output_pdf": "Fig5_student_water_orientation.pdf",
+      "changes": "Final tables replace trajectory/cache analysis; package-relative input and configurable output paths; original plot styling retained."
+    },
+    {
+      "script": "scripts/plot_fig6.py",
+      "original_relative_path": "Direct-MD/plot_foundation_mid_vs_caceles_large_density.py",
+      "original_sha256": "740d9afc222eaed6dc9a91d972ff173e676252a790cdf880c49d70b7159b162a",
+      "output_pdf": "Fig6_foundation_mid_vs_caceles_large_density.pdf",
+      "changes": "Final tables replace trajectory/cache analysis; package-relative input and configurable output paths; original plot styling retained."
+    },
+    {
+      "script": "scripts/plot_fig7.py",
+      "original_relative_path": "Cos-theta/plot_foundation_mid_vs_caceles_large_cos_theta.py",
+      "original_sha256": "ec539ea7b9c951f18745d41f156e2f0db862e2e50da4fedd95bf9336e3facd9c",
+      "output_pdf": "Fig7_foundation_mid_vs_caceles_large_cos_theta.pdf",
+      "changes": "Final tables replace trajectory/cache analysis; package-relative input and configurable output paths; original plot styling retained."
+    },
+    {
+      "script": "scripts/plot_s12.py",
+      "original_relative_path": "Sensitivity_MDduration/plot_old_new_large_water_density_horizontal.py",
+      "original_sha256": "91c552c155ab451d8a69c7b7379d241b51ebee0762571a41f96e4f57242b209b",
+      "output_pdf": "extended_water_density.pdf",
+      "changes": "Final tables replace trajectory/cache analysis; package-relative input and configurable output paths; original plot styling retained."
+    },
+    {
+      "script": "scripts/plot_s13.py",
+      "original_relative_path": "Direct-MD/plot_caceles_mid_vs_large_system_size.py",
+      "original_sha256": "e42466c1c4fa29f2dd1dc5335eff4ad481de11e8189b084d15ceb4f33b1b5b09",
+      "output_pdf": "caceles_mid_vs_large_system_size.pdf",
+      "changes": "Final tables replace trajectory/cache analysis; package-relative input and configurable output paths; original plot styling retained."
+    }
+  ]
+}

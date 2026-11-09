@@ -1,0 +1,18 @@
+{
+  "date": "2026-11-08",
+  "status": "passed",
+  "source_payload_hashes_verified": 17,
+  "final_curves_verified": 41,
+  "checks": [
+    "All copied original numerical and analysis files match source SHA-256",
+    "All plotted x/y arrays, NaN masks and curve order exactly match final tables",
+    "Five original recovered PDFs matched accepted reference SHA-256",
+    "All five lightweight figure redraw scripts executed successfully"
+  ],
+  "environment": {
+    "python": "3.10",
+    "numpy": "2.2.6",
+    "matplotlib": "3.10.3"
+  },
+  "scope": "No raw MD reanalysis; no pixel-identical or byte-identical regenerated PDF claim; no scientific curve changes."
+}

@@ -8,7 +8,7 @@ Analysis scripts, trained models, and training/MD utilities for the Latent Ewald
 - `MLIPs/` — CACE models organized by training strategy.
 - `MLIP_and_MD_setups/` — CACE training, NVT MD, geometry optimization, BEC analysis, and density profiling scripts.
 - [`teacher_label_comparison/`](teacher_label_comparison/) — Supplemental Figs. S9/S10: matched configurations and labels, pairing indices, analysis scripts, numerical results, and figures.
-- [`interface_validation/`](interface_validation/) — Main Figs. 5–7 and Supplemental Figs. S12/S13: final PDFs and an inventory of source data and scripts still to be added.
+- [`interface_validation/`](interface_validation/) — Main Figs. 5–7 and Supplemental Figs. S12/S13: final numerical curves, portable plotting scripts, original analysis sources, and reference PDFs.
 
 ## Quick start
 

@@ -46,12 +46,15 @@ Materials associated with *Distilling latent electrostatics from foundation mach
 | Figures | Directory | Contents |
 |---------|-----------|----------|
 | Supplemental Figs. S9/S10 | [Teacher label comparison](System3_TiO2-water/teacher_label_comparison/) | Matched configurations and labels, pairing indices, portable analysis scripts, numerical results, and figures |
-| Main Figs. 5–7; Supplemental Figs. S12/S13 | [Interface validation](System3_TiO2-water/interface_validation/) | Final figure PDFs and a figure-by-figure inventory of numerical data and scripts still to be added |
-| Supplemental Fig. S5 | [Computational benchmark](System1_water/computational_benchmark/) | Final figure PDF, reported benchmark protocol, and an inventory of timing/memory records and scripts still to be added |
+| Main Figs. 5–7; Supplemental Figs. S12/S13 | [Interface validation](System3_TiO2-water/interface_validation/) | Final numerical curves, portable plotting scripts, original analysis sources, and reference PDFs |
+| Supplemental Fig. S5 | [Computational benchmark](System1_water/computational_benchmark/) | Original timing and memory records, source-backed protocol, benchmark input/driver, and the final plotting script |
 
-Only the S9/S10 directory currently includes the complete inputs and scripts for
-reproducing these newly archived figures. A final PDF alone is not a numerical
-data archive; each directory states its current coverage explicitly.
+Each directory provides figure-reproduction instructions and states the limits
+of the archived inputs. The interface figures can be redrawn from their final
+numerical tables without the large MD trajectories. The S5 package preserves
+measured timing/memory outcomes; rerunning the historical GPU benchmark requires
+its model environments, and the earlier foundation-model driver snapshot is not
+available. Existing S9/S10 inputs are unchanged.
 
 ### Downloading the S9/S10 data
 
